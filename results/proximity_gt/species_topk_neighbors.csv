@@ -1,0 +1,476 @@
+﻿species_id,species_name,rank,neighbor_id,neighbor_name,distance
+0003,Acacia mangium Willd.,1,0030,Amburana cearensis (Allemão) A.C.Sm.,0.2769347786505397
+0003,Acacia mangium Willd.,2,0625,Terminalia superba Engl.& Diels,0.3278660022457368
+0003,Acacia mangium Willd.,3,0258,Entandrophragma cylindricum (Sprague) Sprague,0.3319727170460053
+0003,Acacia mangium Willd.,4,0678,Albizia ferruginea (Guill. & Perr.) Benth.,0.3556821984048879
+0003,Acacia mangium Willd.,5,0399,Lovoa trichilioides Harms,0.3687245393334978
+0006,Acer platanoides L.,1,0007,Acer pseudoplatanus L.,0.12863684301992287
+0006,Acer platanoides L.,2,0461,Ochroma pyramidale (Cav. ex Lam.) Urb.,0.19338552785772342
+0006,Acer platanoides L.,3,0080,Betula papyrifera Marshall,0.3789810185269109
+0006,Acer platanoides L.,4,0073,Balfourodendron riedelianum (Engl.) Engl.,0.48639143447872424
+0006,Acer platanoides L.,5,0542,Pycnanthus angolensis (Welw.) Warb.,0.493412615513158
+0007,Acer pseudoplatanus L.,1,0006,Acer platanoides L.,0.12863684301992287
+0007,Acer pseudoplatanus L.,2,0461,Ochroma pyramidale (Cav. ex Lam.) Urb.,0.35524046465079906
+0007,Acer pseudoplatanus L.,3,0080,Betula papyrifera Marshall,0.41912978056033745
+0007,Acer pseudoplatanus L.,4,0081,Betula pendula Roth,0.4611414403601334
+0007,Acer pseudoplatanus L.,5,0331,Heritiera utilis (Sprague) Sprague,0.4635154354232667
+0009,Leptolobium Vogel,1,0354,Intsia bijuga (Colebr.) Kuntze,0.32434055257000993
+0009,Leptolobium Vogel,2,0302,Gilbertiodendron preussii (Harms) J.Léonard,0.40194537530161223
+0009,Leptolobium Vogel,3,0375,Koompassia malaccensis Maing.,0.46076673614932695
+0009,Leptolobium Vogel,4,0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,0.4766213538245211
+0009,Leptolobium Vogel,5,0371,Khaya grandifoliola C.DC.,0.48449488933067486
+0030,Amburana cearensis (Allemão) A.C.Sm.,1,0678,Albizia ferruginea (Guill. & Perr.) Benth.,0.24092493870508702
+0030,Amburana cearensis (Allemão) A.C.Sm.,2,0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",0.2736227820877635
+0030,Amburana cearensis (Allemão) A.C.Sm.,3,0003,Acacia mangium Willd.,0.2769347786505397
+0030,Amburana cearensis (Allemão) A.C.Sm.,4,0034,Anacardium L.,0.388649343772852
+0030,Amburana cearensis (Allemão) A.C.Sm.,5,0613,Tabebuia rosea (Bert.) DC.,0.40913809266876644
+0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,1,0238,Dipterocarpus kerrii King,0.10633216543342722
+0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,2,0236,Dipterocarpus C.F.Gaertn.,0.14856621334858502
+0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,3,0295,Fraxinus nigra Marshall,0.15992595869267534
+0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,4,0035,Anacardium giganteum Hancock ex Engl.,0.16348353658500536
+0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,5,0147,Ceiba pentandra (L.) Gaertn.,0.2062319738898673
+0034,Anacardium L.,1,0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",0.3272682965262954
+0034,Anacardium L.,2,0678,Albizia ferruginea (Guill. & Perr.) Benth.,0.3332896746060797
+0034,Anacardium L.,3,0030,Amburana cearensis (Allemão) A.C.Sm.,0.388649343772852
+0034,Anacardium L.,4,0096,Brosimum guianense (Aubl.) Huber ex Ducke,0.47051989349457546
+0034,Anacardium L.,5,0045,Anopyxis klaineana (Pierre) Engl.,0.4835413791415624
+0035,Anacardium giganteum Hancock ex Engl.,1,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.16348353658500536
+0035,Anacardium giganteum Hancock ex Engl.,2,0236,Dipterocarpus C.F.Gaertn.,0.177491945005532
+0035,Anacardium giganteum Hancock ex Engl.,3,0147,Ceiba pentandra (L.) Gaertn.,0.18350967962068315
+0035,Anacardium giganteum Hancock ex Engl.,4,0238,Dipterocarpus kerrii King,0.2200906348459077
+0035,Anacardium giganteum Hancock ex Engl.,5,0239,Dipteryx odorata (Aubl.) Forsyth f.,0.2790625498115236
+0041,Aniba rosodora Ducke,1,0366,Juglans regia L.,0.06486421214517504
+0041,Aniba rosodora Ducke,2,0418,Mansonia altissima (A. Chev.) A. Chev.,0.06621092638272671
+0041,Aniba rosodora Ducke,3,0157,Ceriops tagal (Perr.) C.B. Robinson,0.2431085881860415
+0041,Aniba rosodora Ducke,4,0080,Betula papyrifera Marshall,0.2879573705949716
+0041,Aniba rosodora Ducke,5,0313,Grevillea robusta A.Cunn. ex R.Br.,0.30461270175973043
+0045,Anopyxis klaineana (Pierre) Engl.,1,0239,Dipteryx odorata (Aubl.) Forsyth f.,0.16546844206729916
+0045,Anopyxis klaineana (Pierre) Engl.,2,0181,Cotylelobium Pierre,0.25019733396940375
+0045,Anopyxis klaineana (Pierre) Engl.,3,0243,Dracontomelon dao (Blanco) Merr. & Rolfe,0.3237804193361813
+0045,Anopyxis klaineana (Pierre) Engl.,4,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.39750876799080226
+0045,Anopyxis klaineana (Pierre) Engl.,5,0035,Anacardium giganteum Hancock ex Engl.,0.4094846686377261
+0066,Aucoumea klaineana Pierre,1,0367,Juglans nigra L.,0.1682542115672513
+0066,Aucoumea klaineana Pierre,2,0648,Triplochiton scleroxylon K. Schum.,0.16998581225981776
+0066,Aucoumea klaineana Pierre,3,0080,Betula papyrifera Marshall,0.2653209495379223
+0066,Aucoumea klaineana Pierre,4,0366,Juglans regia L.,0.36425061327300673
+0066,Aucoumea klaineana Pierre,5,0295,Fraxinus nigra Marshall,0.36765882398275573
+0070,Bagassa guianensis Aubl.,1,0035,Anacardium giganteum Hancock ex Engl.,0.4437418688200253
+0070,Bagassa guianensis Aubl.,2,0236,Dipterocarpus C.F.Gaertn.,0.5065485907437965
+0070,Bagassa guianensis Aubl.,3,0243,Dracontomelon dao (Blanco) Merr. & Rolfe,0.5296040478457902
+0070,Bagassa guianensis Aubl.,4,0115,Carapa guianensis Aubl.,0.5439523401891455
+0070,Bagassa guianensis Aubl.,5,0034,Anacardium L.,0.5533269234501231
+0071,Baikiaea plurijuga Harms,1,0367,Juglans nigra L.,0.44786214856458206
+0071,Baikiaea plurijuga Harms,2,0648,Triplochiton scleroxylon K. Schum.,0.45011681048825375
+0071,Baikiaea plurijuga Harms,3,0066,Aucoumea klaineana Pierre,0.46587497271794587
+0071,Baikiaea plurijuga Harms,4,0195,Ctenolophon parvifolius Oliv.,0.4781968122386889
+0071,Baikiaea plurijuga Harms,5,0425,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,0.4819444068168066
+0072,Baillonella toxisperma Pierre,1,0679,Aningeria Aubrév. & Pellegr.,0.35635014391727315
+0072,Baillonella toxisperma Pierre,2,0554,Quercus robur L.,0.3822616990682283
+0072,Baillonella toxisperma Pierre,3,0066,Aucoumea klaineana Pierre,0.4061394353557303
+0072,Baillonella toxisperma Pierre,4,0552,Quercus alba L.,0.4154513816051054
+0072,Baillonella toxisperma Pierre,5,0081,Betula pendula Roth,0.4695148472303128
+0073,Balfourodendron riedelianum (Engl.) Engl.,1,0608,Swietenia mahagoni (L.) Jacq.,0.4062743024675016
+0073,Balfourodendron riedelianum (Engl.) Engl.,2,0607,Swietenia macrophylla King,0.43224372261409416
+0073,Balfourodendron riedelianum (Engl.) Engl.,3,0214,Daniellia thurifera Benn.,0.44518714021962835
+0073,Balfourodendron riedelianum (Engl.) Engl.,4,0006,Acer platanoides L.,0.48639143447872424
+0073,Balfourodendron riedelianum (Engl.) Engl.,5,0007,Acer pseudoplatanus L.,0.493194972075576
+0080,Betula papyrifera Marshall,1,0081,Betula pendula Roth,0.19404399333679487
+0080,Betula papyrifera Marshall,2,0418,Mansonia altissima (A. Chev.) A. Chev.,0.24979411544674182
+0080,Betula papyrifera Marshall,3,0366,Juglans regia L.,0.254835188336298
+0080,Betula papyrifera Marshall,4,0066,Aucoumea klaineana Pierre,0.2653209495379223
+0080,Betula papyrifera Marshall,5,0041,Aniba rosodora Ducke,0.2879573705949716
+0081,Betula pendula Roth,1,0080,Betula papyrifera Marshall,0.19404399333679487
+0081,Betula pendula Roth,2,0007,Acer pseudoplatanus L.,0.4611414403601334
+0081,Betula pendula Roth,3,0072,Baillonella toxisperma Pierre,0.4695148472303128
+0081,Betula pendula Roth,4,0066,Aucoumea klaineana Pierre,0.47078639805313316
+0081,Betula pendula Roth,5,0418,Mansonia altissima (A. Chev.) A. Chev.,0.4873940113208686
+0085,Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema,1,0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,0.45870785422222005
+0085,Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema,2,0269,Erythrophleum ivorense A. Chev,0.48678624143754134
+0085,Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema,3,0480,Peltogyne mexicana Martínez,0.5047881513966914
+0085,Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema,4,0399,Lovoa trichilioides Harms,0.5159688765206795
+0085,Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema,5,0245,Dryobalanops aromatica C.F.Gaertn.,0.533142914870905
+0091,Brachystegia Benth.,1,0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,0.22621773087710398
+0091,Brachystegia Benth.,2,0092,Brachystegia cynometroides Harms,0.24152665185257607
+0091,Brachystegia Benth.,3,0302,Gilbertiodendron preussii (Harms) J.Léonard,0.2942240060984599
+0091,Brachystegia Benth.,4,0354,Intsia bijuga (Colebr.) Kuntze,0.33106540798162953
+0091,Brachystegia Benth.,5,0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,0.3515489551948223
+0092,Brachystegia cynometroides Harms,1,0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,0.08822582755623629
+0092,Brachystegia cynometroides Harms,2,0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,0.13965913172075015
+0092,Brachystegia cynometroides Harms,3,0478,Peltogyne Vogel,0.163769042829573
+0092,Brachystegia cynometroides Harms,4,0091,Brachystegia Benth.,0.24152665185257607
+0092,Brachystegia cynometroides Harms,5,0302,Gilbertiodendron preussii (Harms) J.Léonard,0.2656345817713559
+0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,1,0092,Brachystegia cynometroides Harms,0.08822582755623629
+0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,2,0478,Peltogyne Vogel,0.20236580813800606
+0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,3,0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,0.26734040966485606
+0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,4,0302,Gilbertiodendron preussii (Harms) J.Léonard,0.3256356295399795
+0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,5,0091,Brachystegia Benth.,0.3515489551948223
+0095,Brosimum alicastrum Swartz,1,0239,Dipteryx odorata (Aubl.) Forsyth f.,0.357581077922036
+0095,Brosimum alicastrum Swartz,2,0236,Dipterocarpus C.F.Gaertn.,0.3603709560350902
+0095,Brosimum alicastrum Swartz,3,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.41070989898706445
+0095,Brosimum alicastrum Swartz,4,0045,Anopyxis klaineana (Pierre) Engl.,0.4193202459473425
+0095,Brosimum alicastrum Swartz,5,0181,Cotylelobium Pierre,0.4235686898850097
+0096,Brosimum guianense (Aubl.) Huber ex Ducke,1,0678,Albizia ferruginea (Guill. & Perr.) Benth.,0.3892871270494105
+0096,Brosimum guianense (Aubl.) Huber ex Ducke,2,0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",0.3958559489995904
+0096,Brosimum guianense (Aubl.) Huber ex Ducke,3,0091,Brachystegia Benth.,0.4547448692975966
+0096,Brosimum guianense (Aubl.) Huber ex Ducke,4,0034,Anacardium L.,0.47051989349457546
+0096,Brosimum guianense (Aubl.) Huber ex Ducke,5,0354,Intsia bijuga (Colebr.) Kuntze,0.48724552844685415
+0114,Cantleya corniculata (Becc.) R.A.Howard,1,0243,Dracontomelon dao (Blanco) Merr. & Rolfe,0.4582196771409163
+0114,Cantleya corniculata (Becc.) R.A.Howard,2,0045,Anopyxis klaineana (Pierre) Engl.,0.49545163737565373
+0114,Cantleya corniculata (Becc.) R.A.Howard,3,0425,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,0.5264084395869429
+0114,Cantleya corniculata (Becc.) R.A.Howard,4,0239,Dipteryx odorata (Aubl.) Forsyth f.,0.5413044829254658
+0114,Cantleya corniculata (Becc.) R.A.Howard,5,0096,Brosimum guianense (Aubl.) Huber ex Ducke,0.552193066924844
+0115,Carapa guianensis Aubl.,1,0214,Daniellia thurifera Benn.,0.2565217208681283
+0115,Carapa guianensis Aubl.,2,0258,Entandrophragma cylindricum (Sprague) Sprague,0.36793580335844495
+0115,Carapa guianensis Aubl.,3,0606,Swietenia humilis Zucc.,0.4471979242131686
+0115,Carapa guianensis Aubl.,4,0073,Balfourodendron riedelianum (Engl.) Engl.,0.4936081003854244
+0115,Carapa guianensis Aubl.,5,0003,Acacia mangium Willd.,0.49385338887380514
+0129,Castanea crenata Siebold & Zucc.,1,0130,Castanea sativa Mill.,0.15035092059083302
+0129,Castanea crenata Siebold & Zucc.,2,0553,Quercus petraea (Matt.) Liebl.,0.2964802392787419
+0129,Castanea crenata Siebold & Zucc.,3,0550,Quercus mongolica Fisch. ex Ledeb.,0.4516050442074043
+0129,Castanea crenata Siebold & Zucc.,4,0367,Juglans nigra L.,0.47503329008931205
+0129,Castanea crenata Siebold & Zucc.,5,0648,Triplochiton scleroxylon K. Schum.,0.4776398294073793
+0130,Castanea sativa Mill.,1,0129,Castanea crenata Siebold & Zucc.,0.15035092059083302
+0130,Castanea sativa Mill.,2,0553,Quercus petraea (Matt.) Liebl.,0.43035081259822006
+0130,Castanea sativa Mill.,3,0550,Quercus mongolica Fisch. ex Ledeb.,0.43326832115690533
+0130,Castanea sativa Mill.,4,0367,Juglans nigra L.,0.5717733414981103
+0130,Castanea sativa Mill.,5,0648,Triplochiton scleroxylon K. Schum.,0.5757029026483753
+0147,Ceiba pentandra (L.) Gaertn.,1,0238,Dipterocarpus kerrii King,0.10204665631434792
+0147,Ceiba pentandra (L.) Gaertn.,2,0035,Anacardium giganteum Hancock ex Engl.,0.18350967962068315
+0147,Ceiba pentandra (L.) Gaertn.,3,0295,Fraxinus nigra Marshall,0.2029021393797251
+0147,Ceiba pentandra (L.) Gaertn.,4,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.2062319738898673
+0147,Ceiba pentandra (L.) Gaertn.,5,0236,Dipterocarpus C.F.Gaertn.,0.28035367330244687
+0157,Ceriops tagal (Perr.) C.B. Robinson,1,0041,Aniba rosodora Ducke,0.2431085881860415
+0157,Ceriops tagal (Perr.) C.B. Robinson,2,0418,Mansonia altissima (A. Chev.) A. Chev.,0.2731605257812255
+0157,Ceriops tagal (Perr.) C.B. Robinson,3,0366,Juglans regia L.,0.2884011627386608
+0157,Ceriops tagal (Perr.) C.B. Robinson,4,0313,Grevillea robusta A.Cunn. ex R.Br.,0.30132244072914055
+0157,Ceriops tagal (Perr.) C.B. Robinson,5,0238,Dipterocarpus kerrii King,0.38699288538782284
+0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",1,0030,Amburana cearensis (Allemão) A.C.Sm.,0.2736227820877635
+0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",2,0034,Anacardium L.,0.3272682965262954
+0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",3,0678,Albizia ferruginea (Guill. & Perr.) Benth.,0.3399095380387819
+0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",4,0613,Tabebuia rosea (Bert.) DC.,0.37730036469094724
+0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",5,0096,Brosimum guianense (Aubl.) Huber ex Ducke,0.3958559489995904
+0181,Cotylelobium Pierre,1,0239,Dipteryx odorata (Aubl.) Forsyth f.,0.14622150570976708
+0181,Cotylelobium Pierre,2,0045,Anopyxis klaineana (Pierre) Engl.,0.25019733396940375
+0181,Cotylelobium Pierre,3,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.26879112262097044
+0181,Cotylelobium Pierre,4,0238,Dipterocarpus kerrii King,0.32509830539290163
+0181,Cotylelobium Pierre,5,0195,Ctenolophon parvifolius Oliv.,0.3352147024206297
+0195,Ctenolophon parvifolius Oliv.,1,0238,Dipterocarpus kerrii King,0.2413004189615895
+0195,Ctenolophon parvifolius Oliv.,2,0295,Fraxinus nigra Marshall,0.24735007877409096
+0195,Ctenolophon parvifolius Oliv.,3,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.3200381798210229
+0195,Ctenolophon parvifolius Oliv.,4,0181,Cotylelobium Pierre,0.3352147024206297
+0195,Ctenolophon parvifolius Oliv.,5,0147,Ceiba pentandra (L.) Gaertn.,0.3506146004833485
+0207,Dalbergia nigra (Vell.) Allemão ex Benth.,1,0399,Lovoa trichilioides Harms,0.39535086668437736
+0207,Dalbergia nigra (Vell.) Allemão ex Benth.,2,0678,Albizia ferruginea (Guill. & Perr.) Benth.,0.45244800991940926
+0207,Dalbergia nigra (Vell.) Allemão ex Benth.,3,0003,Acacia mangium Willd.,0.4792279514496808
+0207,Dalbergia nigra (Vell.) Allemão ex Benth.,4,0030,Amburana cearensis (Allemão) A.C.Sm.,0.5322254295538735
+0207,Dalbergia nigra (Vell.) Allemão ex Benth.,5,0625,Terminalia superba Engl.& Diels,0.5468339570600828
+0214,Daniellia thurifera Benn.,1,0115,Carapa guianensis Aubl.,0.2565217208681283
+0214,Daniellia thurifera Benn.,2,0606,Swietenia humilis Zucc.,0.31894741031507023
+0214,Daniellia thurifera Benn.,3,0258,Entandrophragma cylindricum (Sprague) Sprague,0.42098991857975226
+0214,Daniellia thurifera Benn.,4,0607,Swietenia macrophylla King,0.43774289327062954
+0214,Daniellia thurifera Benn.,5,0073,Balfourodendron riedelianum (Engl.) Engl.,0.44518714021962835
+0236,Dipterocarpus C.F.Gaertn.,1,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.14856621334858502
+0236,Dipterocarpus C.F.Gaertn.,2,0035,Anacardium giganteum Hancock ex Engl.,0.177491945005532
+0236,Dipterocarpus C.F.Gaertn.,3,0238,Dipterocarpus kerrii King,0.17783804507573886
+0236,Dipterocarpus C.F.Gaertn.,4,0295,Fraxinus nigra Marshall,0.21010638874902032
+0236,Dipterocarpus C.F.Gaertn.,5,0147,Ceiba pentandra (L.) Gaertn.,0.28035367330244687
+0238,Dipterocarpus kerrii King,1,0295,Fraxinus nigra Marshall,0.05868750265168149
+0238,Dipterocarpus kerrii King,2,0147,Ceiba pentandra (L.) Gaertn.,0.10204665631434792
+0238,Dipterocarpus kerrii King,3,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.10633216543342722
+0238,Dipterocarpus kerrii King,4,0236,Dipterocarpus C.F.Gaertn.,0.17783804507573886
+0238,Dipterocarpus kerrii King,5,0035,Anacardium giganteum Hancock ex Engl.,0.2200906348459077
+0239,Dipteryx odorata (Aubl.) Forsyth f.,1,0181,Cotylelobium Pierre,0.14622150570976708
+0239,Dipteryx odorata (Aubl.) Forsyth f.,2,0045,Anopyxis klaineana (Pierre) Engl.,0.16546844206729916
+0239,Dipteryx odorata (Aubl.) Forsyth f.,3,0035,Anacardium giganteum Hancock ex Engl.,0.2790625498115236
+0239,Dipteryx odorata (Aubl.) Forsyth f.,4,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.28117988589132226
+0239,Dipteryx odorata (Aubl.) Forsyth f.,5,0236,Dipterocarpus C.F.Gaertn.,0.2868108724863122
+0243,Dracontomelon dao (Blanco) Merr. & Rolfe,1,0239,Dipteryx odorata (Aubl.) Forsyth f.,0.3000680434080094
+0243,Dracontomelon dao (Blanco) Merr. & Rolfe,2,0035,Anacardium giganteum Hancock ex Engl.,0.30748471661254184
+0243,Dracontomelon dao (Blanco) Merr. & Rolfe,3,0045,Anopyxis klaineana (Pierre) Engl.,0.3237804193361813
+0243,Dracontomelon dao (Blanco) Merr. & Rolfe,4,0181,Cotylelobium Pierre,0.3657442251533418
+0243,Dracontomelon dao (Blanco) Merr. & Rolfe,5,0195,Ctenolophon parvifolius Oliv.,0.37945516633025655
+0244,Dryobalanops C.F.Gaertn.,1,0542,Pycnanthus angolensis (Welw.) Warb.,0.41478070160112773
+0244,Dryobalanops C.F.Gaertn.,2,0326,Guibourtia ehie (A. Chev.) J. Léonard,0.4188586829993798
+0244,Dryobalanops C.F.Gaertn.,3,0245,Dryobalanops aromatica C.F.Gaertn.,0.45113852055910436
+0244,Dryobalanops C.F.Gaertn.,4,0323,Guibourtia demeusei (Harms) J.Léonard,0.5565539734465951
+0244,Dryobalanops C.F.Gaertn.,5,0256,Entandrophragma angolense (Welw.) Panshin,0.5780925410235477
+0245,Dryobalanops aromatica C.F.Gaertn.,1,0244,Dryobalanops C.F.Gaertn.,0.45113852055910436
+0245,Dryobalanops aromatica C.F.Gaertn.,2,0380,Libidibia paraguariensis (D.Parodi) G.P.Lewis,0.4879556230199057
+0245,Dryobalanops aromatica C.F.Gaertn.,3,0480,Peltogyne mexicana Martínez,0.5005643672061353
+0245,Dryobalanops aromatica C.F.Gaertn.,4,0479,Peltogyne catingae Ducke,0.5290783584209616
+0245,Dryobalanops aromatica C.F.Gaertn.,5,0085,Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema,0.533142914870905
+0256,Entandrophragma angolense (Welw.) Panshin,1,0607,Swietenia macrophylla King,0.271796884482141
+0256,Entandrophragma angolense (Welw.) Panshin,2,0323,Guibourtia demeusei (Harms) J.Léonard,0.27202130339163655
+0256,Entandrophragma angolense (Welw.) Panshin,3,0326,Guibourtia ehie (A. Chev.) J. Léonard,0.27386690565274024
+0256,Entandrophragma angolense (Welw.) Panshin,4,0608,Swietenia mahagoni (L.) Jacq.,0.27741339106990287
+0256,Entandrophragma angolense (Welw.) Panshin,5,0324,Guibourtia pellegriniana J.Léonard,0.4111889998840149
+0257,Entandrophragma candollei Harms,1,0396,Lophira alata Banks ex C.F.Gaertn.,0.321102161279493
+0257,Entandrophragma candollei Harms,2,0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,0.3335138335651082
+0257,Entandrophragma candollei Harms,3,0431,Millettia laurentii De Wild.,0.38498213701684253
+0257,Entandrophragma candollei Harms,4,0541,Pterygota macrocarpa K. Schum.,0.40471591943268637
+0257,Entandrophragma candollei Harms,5,0530,Pterocarpus soyauxii Taub.,0.5399039899970532
+0258,Entandrophragma cylindricum (Sprague) Sprague,1,0003,Acacia mangium Willd.,0.3319727170460053
+0258,Entandrophragma cylindricum (Sprague) Sprague,2,0607,Swietenia macrophylla King,0.3338206971028056
+0258,Entandrophragma cylindricum (Sprague) Sprague,3,0608,Swietenia mahagoni (L.) Jacq.,0.3540734195201689
+0258,Entandrophragma cylindricum (Sprague) Sprague,4,0115,Carapa guianensis Aubl.,0.36793580335844495
+0258,Entandrophragma cylindricum (Sprague) Sprague,5,0214,Daniellia thurifera Benn.,0.42098991857975226
+0259,Entandrophragma utile (Dawe & Sprague) Sprague,1,0606,Swietenia humilis Zucc.,0.4551589472194289
+0259,Entandrophragma utile (Dawe & Sprague) Sprague,2,0214,Daniellia thurifera Benn.,0.4866255263406506
+0259,Entandrophragma utile (Dawe & Sprague) Sprague,3,0607,Swietenia macrophylla King,0.5247029582831374
+0259,Entandrophragma utile (Dawe & Sprague) Sprague,4,0625,Terminalia superba Engl.& Diels,0.527140401717391
+0259,Entandrophragma utile (Dawe & Sprague) Sprague,5,0608,Swietenia mahagoni (L.) Jacq.,0.5436382978780187
+0269,Erythrophleum ivorense A. Chev,1,0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,0.20746443220038657
+0269,Erythrophleum ivorense A. Chev,2,0399,Lovoa trichilioides Harms,0.24578261302429824
+0269,Erythrophleum ivorense A. Chev,3,0480,Peltogyne mexicana Martínez,0.381550553244955
+0269,Erythrophleum ivorense A. Chev,4,0625,Terminalia superba Engl.& Diels,0.44477431475902246
+0269,Erythrophleum ivorense A. Chev,5,0375,Koompassia malaccensis Maing.,0.45190667644683863
+0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,1,0269,Erythrophleum ivorense A. Chev,0.20746443220038657
+0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,2,0375,Koompassia malaccensis Maing.,0.26713563266330875
+0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,3,0399,Lovoa trichilioides Harms,0.3016681555083798
+0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,4,0480,Peltogyne mexicana Martínez,0.3514966024192313
+0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,5,0354,Intsia bijuga (Colebr.) Kuntze,0.4162895043813202
+0293,Fraxinus americana L.,1,0297,Fraxinus mandshurica Rupr.,0.05209604836293483
+0293,Fraxinus americana L.,2,0296,Fraxinus ornus L.,0.13972778793396656
+0293,Fraxinus americana L.,3,0236,Dipterocarpus C.F.Gaertn.,0.31386499940897883
+0293,Fraxinus americana L.,4,0238,Dipterocarpus kerrii King,0.34617327075849935
+0293,Fraxinus americana L.,5,0294,Fraxinus excelsior L.,0.3524756177548458
+0294,Fraxinus excelsior L.,1,0293,Fraxinus americana L.,0.3524756177548458
+0294,Fraxinus excelsior L.,2,0297,Fraxinus mandshurica Rupr.,0.3827438609338907
+0294,Fraxinus excelsior L.,3,0296,Fraxinus ornus L.,0.3997737640656768
+0294,Fraxinus excelsior L.,4,0236,Dipterocarpus C.F.Gaertn.,0.4123174596489279
+0294,Fraxinus excelsior L.,5,0238,Dipterocarpus kerrii King,0.42891221729449325
+0295,Fraxinus nigra Marshall,1,0238,Dipterocarpus kerrii King,0.05868750265168149
+0295,Fraxinus nigra Marshall,2,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.15992595869267534
+0295,Fraxinus nigra Marshall,3,0147,Ceiba pentandra (L.) Gaertn.,0.2029021393797251
+0295,Fraxinus nigra Marshall,4,0236,Dipterocarpus C.F.Gaertn.,0.21010638874902032
+0295,Fraxinus nigra Marshall,5,0195,Ctenolophon parvifolius Oliv.,0.24735007877409096
+0296,Fraxinus ornus L.,1,0293,Fraxinus americana L.,0.13972778793396656
+0296,Fraxinus ornus L.,2,0297,Fraxinus mandshurica Rupr.,0.15392943218422664
+0296,Fraxinus ornus L.,3,0236,Dipterocarpus C.F.Gaertn.,0.3111988007721319
+0296,Fraxinus ornus L.,4,0238,Dipterocarpus kerrii King,0.3223241949196193
+0296,Fraxinus ornus L.,5,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,0.35662492948111874
+0297,Fraxinus mandshurica Rupr.,1,0293,Fraxinus americana L.,0.05209604836293483
+0297,Fraxinus mandshurica Rupr.,2,0296,Fraxinus ornus L.,0.15392943218422664
+0297,Fraxinus mandshurica Rupr.,3,0295,Fraxinus nigra Marshall,0.35263583230139095
+0297,Fraxinus mandshurica Rupr.,4,0236,Dipterocarpus C.F.Gaertn.,0.36453351464809386
+0297,Fraxinus mandshurica Rupr.,5,0238,Dipterocarpus kerrii King,0.3666104265038762
+0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,1,0092,Brachystegia cynometroides Harms,0.13965913172075015
+0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,2,0302,Gilbertiodendron preussii (Harms) J.Léonard,0.22571425255555097
+0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,3,0091,Brachystegia Benth.,0.22621773087710398
+0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,4,0478,Peltogyne Vogel,0.2565785323440487
+0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,5,0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,0.26734040966485606
+0302,Gilbertiodendron preussii (Harms) J.Léonard,1,0354,Intsia bijuga (Colebr.) Kuntze,0.21625032883326611
+0302,Gilbertiodendron preussii (Harms) J.Léonard,2,0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,0.22571425255555097
+0302,Gilbertiodendron preussii (Harms) J.Léonard,3,0092,Brachystegia cynometroides Harms,0.2656345817713559
+0302,Gilbertiodendron preussii (Harms) J.Léonard,4,0091,Brachystegia Benth.,0.2942240060984599
+0302,Gilbertiodendron preussii (Harms) J.Léonard,5,0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,0.3256356295399795
+0313,Grevillea robusta A.Cunn. ex R.Br.,1,0157,Ceriops tagal (Perr.) C.B. Robinson,0.30132244072914055
+0313,Grevillea robusta A.Cunn. ex R.Br.,2,0041,Aniba rosodora Ducke,0.30461270175973043
+0313,Grevillea robusta A.Cunn. ex R.Br.,3,0418,Mansonia altissima (A. Chev.) A. Chev.,0.3110672267609812
+0313,Grevillea robusta A.Cunn. ex R.Br.,4,0366,Juglans regia L.,0.314056629050659
+0313,Grevillea robusta A.Cunn. ex R.Br.,5,0367,Juglans nigra L.,0.3576528561997041
+0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,1,0396,Lophira alata Banks ex C.F.Gaertn.,0.05743549002334811
+0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,2,0431,Millettia laurentii De Wild.,0.20566163128576162
+0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,3,0541,Pterygota macrocarpa K. Schum.,0.22396610439346423
+0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,4,0257,Entandrophragma candollei Harms,0.3335138335651082
+0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,5,0371,Khaya grandifoliola C.DC.,0.506516005555402
+0323,Guibourtia demeusei (Harms) J.Léonard,1,0326,Guibourtia ehie (A. Chev.) J. Léonard,0.17119696466481837
+0323,Guibourtia demeusei (Harms) J.Léonard,2,0256,Entandrophragma angolense (Welw.) Panshin,0.27202130339163655
+0323,Guibourtia demeusei (Harms) J.Léonard,3,0324,Guibourtia pellegriniana J.Léonard,0.3060406525141117
+0323,Guibourtia demeusei (Harms) J.Léonard,4,0325,Guibourtia tessmannii (Harms) J.Léonard,0.34604209882393067
+0323,Guibourtia demeusei (Harms) J.Léonard,5,0607,Swietenia macrophylla King,0.48158041830689646
+0324,Guibourtia pellegriniana J.Léonard,1,0326,Guibourtia ehie (A. Chev.) J. Léonard,0.2858391749750239
+0324,Guibourtia pellegriniana J.Léonard,2,0323,Guibourtia demeusei (Harms) J.Léonard,0.3060406525141117
+0324,Guibourtia pellegriniana J.Léonard,3,0325,Guibourtia tessmannii (Harms) J.Léonard,0.32258137773133966
+0324,Guibourtia pellegriniana J.Léonard,4,0256,Entandrophragma angolense (Welw.) Panshin,0.4111889998840149
+0324,Guibourtia pellegriniana J.Léonard,5,0353,Intsia Thouars,0.4331188447165738
+0325,Guibourtia tessmannii (Harms) J.Léonard,1,0324,Guibourtia pellegriniana J.Léonard,0.32258137773133966
+0325,Guibourtia tessmannii (Harms) J.Léonard,2,0323,Guibourtia demeusei (Harms) J.Léonard,0.34604209882393067
+0325,Guibourtia tessmannii (Harms) J.Léonard,3,0326,Guibourtia ehie (A. Chev.) J. Léonard,0.4041063986466353
+0325,Guibourtia tessmannii (Harms) J.Léonard,4,0256,Entandrophragma angolense (Welw.) Panshin,0.4302967875298268
+0325,Guibourtia tessmannii (Harms) J.Léonard,5,0607,Swietenia macrophylla King,0.5278505683569624
+0326,Guibourtia ehie (A. Chev.) J. Léonard,1,0323,Guibourtia demeusei (Harms) J.Léonard,0.17119696466481837
+0326,Guibourtia ehie (A. Chev.) J. Léonard,2,0256,Entandrophragma angolense (Welw.) Panshin,0.27386690565274024
+0326,Guibourtia ehie (A. Chev.) J. Léonard,3,0324,Guibourtia pellegriniana J.Léonard,0.2858391749750239
+0326,Guibourtia ehie (A. Chev.) J. Léonard,4,0325,Guibourtia tessmannii (Harms) J.Léonard,0.4041063986466353
+0326,Guibourtia ehie (A. Chev.) J. Léonard,5,0353,Intsia Thouars,0.4121301360642226
+0331,Heritiera utilis (Sprague) Sprague,1,0607,Swietenia macrophylla King,0.33142344186323025
+0331,Heritiera utilis (Sprague) Sprague,2,0608,Swietenia mahagoni (L.) Jacq.,0.33828010050096735
+0331,Heritiera utilis (Sprague) Sprague,3,0256,Entandrophragma angolense (Welw.) Panshin,0.4226975816319591
+0331,Heritiera utilis (Sprague) Sprague,4,0372,Khaya ivorensis A.Chev.,0.4406717221064304
+0331,Heritiera utilis (Sprague) Sprague,5,0007,Acer pseudoplatanus L.,0.4635154354232667
+0353,Intsia Thouars,1,0478,Peltogyne Vogel,0.3841920373071507
+0353,Intsia Thouars,2,0326,Guibourtia ehie (A. Chev.) J. Léonard,0.4121301360642226
+0353,Intsia Thouars,3,0092,Brachystegia cynometroides Harms,0.415864296354419
+0353,Intsia Thouars,4,0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,0.4284496189936936
+0353,Intsia Thouars,5,0324,Guibourtia pellegriniana J.Léonard,0.4331188447165738
+0354,Intsia bijuga (Colebr.) Kuntze,1,0375,Koompassia malaccensis Maing.,0.19646756766033285
+0354,Intsia bijuga (Colebr.) Kuntze,2,0302,Gilbertiodendron preussii (Harms) J.Léonard,0.21625032883326611
+0354,Intsia bijuga (Colebr.) Kuntze,3,0009,Leptolobium Vogel,0.32434055257000993
+0354,Intsia bijuga (Colebr.) Kuntze,4,0091,Brachystegia Benth.,0.33106540798162953
+0354,Intsia bijuga (Colebr.) Kuntze,5,0426,Microberlinia brazzavillensis A. Chev.,0.3611457796111756
+0366,Juglans regia L.,1,0418,Mansonia altissima (A. Chev.) A. Chev.,0.004599543295914638
+0366,Juglans regia L.,2,0041,Aniba rosodora Ducke,0.06486421214517504
+0366,Juglans regia L.,3,0080,Betula papyrifera Marshall,0.254835188336298
+0366,Juglans regia L.,4,0157,Ceriops tagal (Perr.) C.B. Robinson,0.2884011627386608
+0366,Juglans regia L.,5,0367,Juglans nigra L.,0.2980999998687917
+0367,Juglans nigra L.,1,0648,Triplochiton scleroxylon K. Schum.,0.04452962570668456
+0367,Juglans nigra L.,2,0066,Aucoumea klaineana Pierre,0.1682542115672513
+0367,Juglans nigra L.,3,0295,Fraxinus nigra Marshall,0.26054244072946
+0367,Juglans nigra L.,4,0366,Juglans regia L.,0.2980999998687917
+0367,Juglans nigra L.,5,0418,Mansonia altissima (A. Chev.) A. Chev.,0.3004859210422315
+0371,Khaya grandifoliola C.DC.,1,0366,Juglans regia L.,0.3452001630561281
+0371,Khaya grandifoliola C.DC.,2,0418,Mansonia altissima (A. Chev.) A. Chev.,0.3510291624511091
+0371,Khaya grandifoliola C.DC.,3,0041,Aniba rosodora Ducke,0.39562758375653534
+0371,Khaya grandifoliola C.DC.,4,0372,Khaya ivorensis A.Chev.,0.40350314308042473
+0371,Khaya grandifoliola C.DC.,5,0313,Grevillea robusta A.Cunn. ex R.Br.,0.42763204175504765
+0372,Khaya ivorensis A.Chev.,1,0607,Swietenia macrophylla King,0.3293202780104236
+0372,Khaya ivorensis A.Chev.,2,0608,Swietenia mahagoni (L.) Jacq.,0.3395461133710844
+0372,Khaya ivorensis A.Chev.,3,0371,Khaya grandifoliola C.DC.,0.40350314308042473
+0372,Khaya ivorensis A.Chev.,4,0331,Heritiera utilis (Sprague) Sprague,0.4406717221064304
+0372,Khaya ivorensis A.Chev.,5,0256,Entandrophragma angolense (Welw.) Panshin,0.49627567644860815
+0375,Koompassia malaccensis Maing.,1,0354,Intsia bijuga (Colebr.) Kuntze,0.19646756766033285
+0375,Koompassia malaccensis Maing.,2,0426,Microberlinia brazzavillensis A. Chev.,0.23715097089336032
+0375,Koompassia malaccensis Maing.,3,0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,0.26713563266330875
+0375,Koompassia malaccensis Maing.,4,0091,Brachystegia Benth.,0.37542707011522297
+0375,Koompassia malaccensis Maing.,5,0302,Gilbertiodendron preussii (Harms) J.Léonard,0.3866748758716967
+0380,Libidibia paraguariensis (D.Parodi) G.P.Lewis,1,0245,Dryobalanops aromatica C.F.Gaertn.,0.4879556230199057
+0380,Libidibia paraguariensis (D.Parodi) G.P.Lewis,2,0480,Peltogyne mexicana Martínez,0.5303024031348138
+0380,Libidibia paraguariensis (D.Parodi) G.P.Lewis,3,0085,Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema,0.5354889537383307
+0380,Libidibia paraguariensis (D.Parodi) G.P.Lewis,4,0009,Leptolobium Vogel,0.5621687047244415
+0380,Libidibia paraguariensis (D.Parodi) G.P.Lewis,5,0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,0.5694993207660148
+0396,Lophira alata Banks ex C.F.Gaertn.,1,0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,0.05743549002334811
+0396,Lophira alata Banks ex C.F.Gaertn.,2,0431,Millettia laurentii De Wild.,0.17956988785077166
+0396,Lophira alata Banks ex C.F.Gaertn.,3,0541,Pterygota macrocarpa K. Schum.,0.22303110829573228
+0396,Lophira alata Banks ex C.F.Gaertn.,4,0257,Entandrophragma candollei Harms,0.321102161279493
+0396,Lophira alata Banks ex C.F.Gaertn.,5,0530,Pterocarpus soyauxii Taub.,0.5176199343034703
+0399,Lovoa trichilioides Harms,1,0269,Erythrophleum ivorense A. Chev,0.24578261302429824
+0399,Lovoa trichilioides Harms,2,0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,0.3016681555083798
+0399,Lovoa trichilioides Harms,3,0625,Terminalia superba Engl.& Diels,0.33149801780296856
+0399,Lovoa trichilioides Harms,4,0480,Peltogyne mexicana Martínez,0.35600355922238247
+0399,Lovoa trichilioides Harms,5,0003,Acacia mangium Willd.,0.3687245393334978
+0418,Mansonia altissima (A. Chev.) A. Chev.,1,0366,Juglans regia L.,0.004599543295914638
+0418,Mansonia altissima (A. Chev.) A. Chev.,2,0041,Aniba rosodora Ducke,0.06621092638272671
+0418,Mansonia altissima (A. Chev.) A. Chev.,3,0080,Betula papyrifera Marshall,0.24979411544674182
+0418,Mansonia altissima (A. Chev.) A. Chev.,4,0157,Ceriops tagal (Perr.) C.B. Robinson,0.2731605257812255
+0418,Mansonia altissima (A. Chev.) A. Chev.,5,0367,Juglans nigra L.,0.3004859210422315
+0425,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,1,0195,Ctenolophon parvifolius Oliv.,0.41307767065684653
+0425,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,2,0371,Khaya grandifoliola C.DC.,0.4747482378658244
+0425,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,3,0071,Baikiaea plurijuga Harms,0.4819444068168066
+0425,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,4,0367,Juglans nigra L.,0.49278550396535886
+0425,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,5,0114,Cantleya corniculata (Becc.) R.A.Howard,0.5264084395869429
+0426,Microberlinia brazzavillensis A. Chev.,1,0375,Koompassia malaccensis Maing.,0.23715097089336032
+0426,Microberlinia brazzavillensis A. Chev.,2,0354,Intsia bijuga (Colebr.) Kuntze,0.3611457796111756
+0426,Microberlinia brazzavillensis A. Chev.,3,0430,Milicia excelsa (Welw.) C.C. Berg,0.4226527933071817
+0426,Microberlinia brazzavillensis A. Chev.,4,0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,0.4561155885577848
+0426,Microberlinia brazzavillensis A. Chev.,5,0091,Brachystegia Benth.,0.4594447317035237
+0430,Milicia excelsa (Welw.) C.C. Berg,1,0426,Microberlinia brazzavillensis A. Chev.,0.4226527933071817
+0430,Milicia excelsa (Welw.) C.C. Berg,2,0613,Tabebuia rosea (Bert.) DC.,0.526333791600941
+0430,Milicia excelsa (Welw.) C.C. Berg,3,0375,Koompassia malaccensis Maing.,0.5934686322013838
+0430,Milicia excelsa (Welw.) C.C. Berg,4,0380,Libidibia paraguariensis (D.Parodi) G.P.Lewis,0.5948143351852921
+0430,Milicia excelsa (Welw.) C.C. Berg,5,0324,Guibourtia pellegriniana J.Léonard,0.6143954254715971
+0431,Millettia laurentii De Wild.,1,0396,Lophira alata Banks ex C.F.Gaertn.,0.17956988785077166
+0431,Millettia laurentii De Wild.,2,0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,0.20566163128576162
+0431,Millettia laurentii De Wild.,3,0541,Pterygota macrocarpa K. Schum.,0.3253964368780564
+0431,Millettia laurentii De Wild.,4,0257,Entandrophragma candollei Harms,0.38498213701684253
+0431,Millettia laurentii De Wild.,5,0530,Pterocarpus soyauxii Taub.,0.5164460022531724
+0461,Ochroma pyramidale (Cav. ex Lam.) Urb.,1,0006,Acer platanoides L.,0.19338552785772342
+0461,Ochroma pyramidale (Cav. ex Lam.) Urb.,2,0007,Acer pseudoplatanus L.,0.35524046465079906
+0461,Ochroma pyramidale (Cav. ex Lam.) Urb.,3,0542,Pycnanthus angolensis (Welw.) Warb.,0.3590670900125457
+0461,Ochroma pyramidale (Cav. ex Lam.) Urb.,4,0366,Juglans regia L.,0.44155629863908363
+0461,Ochroma pyramidale (Cav. ex Lam.) Urb.,5,0418,Mansonia altissima (A. Chev.) A. Chev.,0.4486514970163219
+0478,Peltogyne Vogel,1,0092,Brachystegia cynometroides Harms,0.163769042829573
+0478,Peltogyne Vogel,2,0093,Brachystegia laurentii (De Wild.) Louis ex J.Léonard,0.20236580813800606
+0478,Peltogyne Vogel,3,0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,0.2565785323440487
+0478,Peltogyne Vogel,4,0480,Peltogyne mexicana Martínez,0.2620633646343863
+0478,Peltogyne Vogel,5,0091,Brachystegia Benth.,0.3840832767357069
+0479,Peltogyne catingae Ducke,1,0480,Peltogyne mexicana Martínez,0.29878385158967324
+0479,Peltogyne catingae Ducke,2,0478,Peltogyne Vogel,0.40579732454250617
+0479,Peltogyne catingae Ducke,3,0353,Intsia Thouars,0.5099275439942523
+0479,Peltogyne catingae Ducke,4,0245,Dryobalanops aromatica C.F.Gaertn.,0.5290783584209616
+0479,Peltogyne catingae Ducke,5,0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,0.5313017118215588
+0480,Peltogyne mexicana Martínez,1,0478,Peltogyne Vogel,0.2620633646343863
+0480,Peltogyne mexicana Martínez,2,0479,Peltogyne catingae Ducke,0.29878385158967324
+0480,Peltogyne mexicana Martínez,3,0270,Erythrophleum suaveolens (Guill. & Perr.) Brenan,0.3514966024192313
+0480,Peltogyne mexicana Martínez,4,0399,Lovoa trichilioides Harms,0.35600355922238247
+0480,Peltogyne mexicana Martínez,5,0269,Erythrophleum ivorense A. Chev,0.381550553244955
+0530,Pterocarpus soyauxii Taub.,1,0541,Pterygota macrocarpa K. Schum.,0.4243684609075017
+0530,Pterocarpus soyauxii Taub.,2,0431,Millettia laurentii De Wild.,0.5164460022531724
+0530,Pterocarpus soyauxii Taub.,3,0396,Lophira alata Banks ex C.F.Gaertn.,0.5176199343034703
+0530,Pterocarpus soyauxii Taub.,4,0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,0.5356072652319737
+0530,Pterocarpus soyauxii Taub.,5,0257,Entandrophragma candollei Harms,0.5399039899970532
+0541,Pterygota macrocarpa K. Schum.,1,0396,Lophira alata Banks ex C.F.Gaertn.,0.22303110829573228
+0541,Pterygota macrocarpa K. Schum.,2,0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,0.22396610439346423
+0541,Pterygota macrocarpa K. Schum.,3,0431,Millettia laurentii De Wild.,0.3253964368780564
+0541,Pterygota macrocarpa K. Schum.,4,0257,Entandrophragma candollei Harms,0.40471591943268637
+0541,Pterygota macrocarpa K. Schum.,5,0530,Pterocarpus soyauxii Taub.,0.4243684609075017
+0542,Pycnanthus angolensis (Welw.) Warb.,1,0461,Ochroma pyramidale (Cav. ex Lam.) Urb.,0.3590670900125457
+0542,Pycnanthus angolensis (Welw.) Warb.,2,0367,Juglans nigra L.,0.37856190092904163
+0542,Pycnanthus angolensis (Welw.) Warb.,3,0648,Triplochiton scleroxylon K. Schum.,0.38429617936125254
+0542,Pycnanthus angolensis (Welw.) Warb.,4,0244,Dryobalanops C.F.Gaertn.,0.41478070160112773
+0542,Pycnanthus angolensis (Welw.) Warb.,5,0066,Aucoumea klaineana Pierre,0.4820875465295075
+0550,Quercus mongolica Fisch. ex Ledeb.,1,0553,Quercus petraea (Matt.) Liebl.,0.26877125496388166
+0550,Quercus mongolica Fisch. ex Ledeb.,2,0554,Quercus robur L.,0.4295265504356388
+0550,Quercus mongolica Fisch. ex Ledeb.,3,0130,Castanea sativa Mill.,0.43326832115690533
+0550,Quercus mongolica Fisch. ex Ledeb.,4,0129,Castanea crenata Siebold & Zucc.,0.4516050442074043
+0550,Quercus mongolica Fisch. ex Ledeb.,5,0552,Quercus alba L.,0.4850158926676849
+0552,Quercus alba L.,1,0554,Quercus robur L.,0.0729636471932828
+0552,Quercus alba L.,2,0553,Quercus petraea (Matt.) Liebl.,0.2594230640277586
+0552,Quercus alba L.,3,0072,Baillonella toxisperma Pierre,0.4154513816051054
+0552,Quercus alba L.,4,0648,Triplochiton scleroxylon K. Schum.,0.43473414742884225
+0552,Quercus alba L.,5,0367,Juglans nigra L.,0.44114091882479
+0553,Quercus petraea (Matt.) Liebl.,1,0554,Quercus robur L.,0.21694441687561564
+0553,Quercus petraea (Matt.) Liebl.,2,0552,Quercus alba L.,0.2594230640277586
+0553,Quercus petraea (Matt.) Liebl.,3,0550,Quercus mongolica Fisch. ex Ledeb.,0.26877125496388166
+0553,Quercus petraea (Matt.) Liebl.,4,0129,Castanea crenata Siebold & Zucc.,0.2964802392787419
+0553,Quercus petraea (Matt.) Liebl.,5,0130,Castanea sativa Mill.,0.43035081259822006
+0554,Quercus robur L.,1,0552,Quercus alba L.,0.0729636471932828
+0554,Quercus robur L.,2,0553,Quercus petraea (Matt.) Liebl.,0.21694441687561564
+0554,Quercus robur L.,3,0072,Baillonella toxisperma Pierre,0.3822616990682283
+0554,Quercus robur L.,4,0367,Juglans nigra L.,0.41152489606975023
+0554,Quercus robur L.,5,0648,Triplochiton scleroxylon K. Schum.,0.42304489225303793
+0606,Swietenia humilis Zucc.,1,0214,Daniellia thurifera Benn.,0.31894741031507023
+0606,Swietenia humilis Zucc.,2,0607,Swietenia macrophylla King,0.3541735299298283
+0606,Swietenia humilis Zucc.,3,0608,Swietenia mahagoni (L.) Jacq.,0.36108844138249585
+0606,Swietenia humilis Zucc.,4,0258,Entandrophragma cylindricum (Sprague) Sprague,0.4363858829084579
+0606,Swietenia humilis Zucc.,5,0115,Carapa guianensis Aubl.,0.4471979242131686
+0607,Swietenia macrophylla King,1,0608,Swietenia mahagoni (L.) Jacq.,0.03680206878950995
+0607,Swietenia macrophylla King,2,0256,Entandrophragma angolense (Welw.) Panshin,0.271796884482141
+0607,Swietenia macrophylla King,3,0372,Khaya ivorensis A.Chev.,0.3293202780104236
+0607,Swietenia macrophylla King,4,0331,Heritiera utilis (Sprague) Sprague,0.33142344186323025
+0607,Swietenia macrophylla King,5,0258,Entandrophragma cylindricum (Sprague) Sprague,0.3338206971028056
+0608,Swietenia mahagoni (L.) Jacq.,1,0607,Swietenia macrophylla King,0.03680206878950995
+0608,Swietenia mahagoni (L.) Jacq.,2,0256,Entandrophragma angolense (Welw.) Panshin,0.2774133910699029
+0608,Swietenia mahagoni (L.) Jacq.,3,0331,Heritiera utilis (Sprague) Sprague,0.33828010050096735
+0608,Swietenia mahagoni (L.) Jacq.,4,0372,Khaya ivorensis A.Chev.,0.3395461133710844
+0608,Swietenia mahagoni (L.) Jacq.,5,0258,Entandrophragma cylindricum (Sprague) Sprague,0.3540734195201689
+0613,Tabebuia rosea (Bert.) DC.,1,0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",0.37730036469094724
+0613,Tabebuia rosea (Bert.) DC.,2,0399,Lovoa trichilioides Harms,0.381190866044951
+0613,Tabebuia rosea (Bert.) DC.,3,0625,Terminalia superba Engl.& Diels,0.3973568223596927
+0613,Tabebuia rosea (Bert.) DC.,4,0030,Amburana cearensis (Allemão) A.C.Sm.,0.40913809266876644
+0613,Tabebuia rosea (Bert.) DC.,5,0375,Koompassia malaccensis Maing.,0.44596203578852667
+0621,Tectona grandis L.,1,0294,Fraxinus excelsior L.,0.4354743820104367
+0621,Tectona grandis L.,2,0606,Swietenia humilis Zucc.,0.528107794535694
+0621,Tectona grandis L.,3,0214,Daniellia thurifera Benn.,0.530457315175064
+0621,Tectona grandis L.,4,0073,Balfourodendron riedelianum (Engl.) Engl.,0.5435097637370749
+0621,Tectona grandis L.,5,0195,Ctenolophon parvifolius Oliv.,0.5590930136885027
+0625,Terminalia superba Engl.& Diels,1,0003,Acacia mangium Willd.,0.3278660022457368
+0625,Terminalia superba Engl.& Diels,2,0399,Lovoa trichilioides Harms,0.3314980178029685
+0625,Terminalia superba Engl.& Diels,3,0613,Tabebuia rosea (Bert.) DC.,0.3973568223596927
+0625,Terminalia superba Engl.& Diels,4,0269,Erythrophleum ivorense A. Chev,0.44477431475902246
+0625,Terminalia superba Engl.& Diels,5,0375,Koompassia malaccensis Maing.,0.4634062631238688
+0648,Triplochiton scleroxylon K. Schum.,1,0367,Juglans nigra L.,0.04452962570668442
+0648,Triplochiton scleroxylon K. Schum.,2,0066,Aucoumea klaineana Pierre,0.1699858122598177
+0648,Triplochiton scleroxylon K. Schum.,3,0295,Fraxinus nigra Marshall,0.2682950961401559
+0648,Triplochiton scleroxylon K. Schum.,4,0238,Dipterocarpus kerrii King,0.29750280308029703
+0648,Triplochiton scleroxylon K. Schum.,5,0366,Juglans regia L.,0.3293685607185206
+0678,Albizia ferruginea (Guill. & Perr.) Benth.,1,0030,Amburana cearensis (Allemão) A.C.Sm.,0.240924938705087
+0678,Albizia ferruginea (Guill. & Perr.) Benth.,2,0034,Anacardium L.,0.3332896746060797
+0678,Albizia ferruginea (Guill. & Perr.) Benth.,3,0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",0.3399095380387819
+0678,Albizia ferruginea (Guill. & Perr.) Benth.,4,0003,Acacia mangium Willd.,0.35568219840488785
+0678,Albizia ferruginea (Guill. & Perr.) Benth.,5,0096,Brosimum guianense (Aubl.) Huber ex Ducke,0.3892871270494105
+0679,Aningeria Aubrév. & Pellegr.,1,0072,Baillonella toxisperma Pierre,0.35635014391727327
+0679,Aningeria Aubrév. & Pellegr.,2,0080,Betula papyrifera Marshall,0.42823333330761604
+0679,Aningeria Aubrév. & Pellegr.,3,0554,Quercus robur L.,0.46272348469440966
+0679,Aningeria Aubrév. & Pellegr.,4,0552,Quercus alba L.,0.5009286486765313
+0679,Aningeria Aubrév. & Pellegr.,5,0081,Betula pendula Roth,0.5210844879776779

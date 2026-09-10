@@ -1,0 +1,155 @@
+# Clasificador de especie — configuracion de la ejecucion reportada
+#
+# DOCUMENTACION, NO CONFIGURACION EJECUTABLE: species_classifier.py todavia lleva
+# estos valores en constantes de cabecera. Este fichero existe para que los
+# resultados publicados sean auditables y como base del refactor pendiente.
+
+entradas:
+  especies_json: models/inferences/especies.json     # id de 4 digitos -> nombre latino
+  coco_predicciones: models/inferences/sem_loss_stratified
+
+salidas:
+  features: species_inferences/features_por_imagen.csv
+  predicciones_out_of_fold: species_inferences/predictions.csv
+  reporte: species_inferences/classification_report.txt
+  modelo_rf: models/species_classifier/species_model_rf.joblib
+  modelo_svm: models/species_classifier/species_model_svm.joblib
+
+features:
+  # Por cada una de las 14 clases de rasgo: _count, _area_sum, _area_mean,
+  # _area_std, _density_%.  Mas total_annotations, total_annotated_area,
+  # total_density_%.  Se descartan image_id, file_name, species_id,
+  # species_name e img_area.
+  columnas_por_clase: [count, area_sum, area_mean, area_std, "density_%"]
+  agregados: [total_annotations, total_annotated_area, "total_density_%"]
+
+validacion:
+  esquema: StratifiedKFold
+  n_splits: 5
+  shuffle: true
+  random_state: 42
+  metricas: [accuracy, f1_macro]
+  # Pendiente: agrupar por especimen fisico (GroupKFold). Varias imagenes son
+  # cortes de la misma pieza y ahora pueden caer en pliegues distintos.
+
+modelos:
+  random_forest:
+    imputer: median
+    n_estimators: 500
+    max_depth: null
+    min_samples_leaf: 2
+    class_weight: balanced
+    random_state: 42
+  svm:
+    imputer: median
+    scaler: StandardScaler
+    kernel: rbf
+    C: 10
+    gamma: scale
+    class_weight: balanced
+    probability: true
+    random_state: 42
+
+seleccion_de_modelo:
+  criterio_declarado: f1_macro
+  # BUG CONOCIDO: el script sobrescribe la seleccion con SVM de forma
+  # incondicional. En la ejecucion publicada gano el RF (0.9646) pero se guardo
+  # la SVM (0.9364). Ver results/RESULTS.md, seccion 2.
+
+catalogo_especies:   # 96 especies (TARGET_IDS)
+    - '0009'
+    - '0013'
+    - '0041'
+    - '0045'
+    - '0071'
+    - '0085'
+    - '0095'
+    - '0096'
+    - '0114'
+    - '0157'
+    - '0158'
+    - '0181'
+    - '0195'
+    - '0207'
+    - '0239'
+    - '0243'
+    - '0313'
+    - '0380'
+    - '0425'
+    - '0003'
+    - '0006'
+    - '0007'
+    - '0678'
+    - '0030'
+    - '0033'
+    - '0034'
+    - '0035'
+    - '0679'
+    - '0066'
+    - '0070'
+    - '0072'
+    - '0073'
+    - '0080'
+    - '0081'
+    - '0091'
+    - '0092'
+    - '0093'
+    - '0115'
+    - '0129'
+    - '0130'
+    - '0147'
+    - '0214'
+    - '0236'
+    - '0238'
+    - '0245'
+    - '0244'
+    - '0256'
+    - '0257'
+    - '0258'
+    - '0259'
+    - '0269'
+    - '0270'
+    - '0293'
+    - '0294'
+    - '0297'
+    - '0295'
+    - '0296'
+    - '0301'
+    - '0302'
+    - '0323'
+    - '0326'
+    - '0324'
+    - '0325'
+    - '0331'
+    - '0354'
+    - '0353'
+    - '0367'
+    - '0366'
+    - '0371'
+    - '0372'
+    - '0375'
+    - '0318'
+    - '0396'
+    - '0399'
+    - '0418'
+    - '0426'
+    - '0430'
+    - '0431'
+    - '0461'
+    - '0479'
+    - '0480'
+    - '0478'
+    - '0530'
+    - '0541'
+    - '0542'
+    - '0552'
+    - '0550'
+    - '0553'
+    - '0554'
+    - '0606'
+    - '0607'
+    - '0608'
+    - '0613'
+    - '0621'
+    - '0625'
+    - '0648'

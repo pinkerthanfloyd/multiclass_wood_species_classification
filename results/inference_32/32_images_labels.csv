@@ -1,0 +1,27 @@
+image,true_species_id,true_species,predicted_species_id,predicted_species_reported
+1.jpg,0030,Amburana cearensis (Allemão) A.C.Sm.,0030,Amburana cearensis (Allemão) A.C.Sm.
+2.jpg,0034,Anacardium L.,0621,Tectona grandis L.
+3.jpg,0070,Bagassa guianensis Aubl.,0115,Carapa guianensis Aubl.
+4.jpg,0072,Baillonella toxisperma Pierre,0072,Baillonella toxisperma Pierre
+5.jpg,0073,Balfourodendron riedelianum (Engl.) Engl.,0073,Balfourodendron riedelianum (Engl.) Engl.
+6.jpg,0115,Carapa guianensis Aubl.,0257,Entandrophragma candollei Harms
+7.jpg,0130,Castanea sativa Mill.,0294,Fraxinus excelsior L.
+8.jpg,0294,Fraxinus excelsior L.,0431,Millettia laurentii De Wild.
+9.jpg,0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,0431,Millettia laurentii De Wild.
+10.jpg,0318,Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde,0396,Lophira alata Banks ex C.F.Gaertn.
+11.jpg,0396,Lophira alata Banks ex C.F.Gaertn.,0431,Millettia laurentii De Wild.
+12.jpg,0426,Microberlinia brazzavillensis A. Chev.,0431,Millettia laurentii De Wild.
+13.jpg,0430,Milicia excelsa (Welw.) C.C. Berg,0431,Millettia laurentii De Wild.
+14.jpg,0431,Millettia laurentii De Wild.,0431,Millettia laurentii De Wild.
+15.jpg,0478,Peltogyne Vogel,0478,Peltogyne Vogel
+16.jpg,0530,Pterocarpus soyauxii Taub.,0431,Millettia laurentii De Wild.
+17.jpg,0541,Pterygota macrocarpa K. Schum.,0431,Millettia laurentii De Wild.
+18.jpg,0540,Pterygota bequaertii De Wild.,0431,Millettia laurentii De Wild.
+19.jpg,0621,Tectona grandis L.,0679,Aningeria Aubrév. & Pellegr.
+20.jpg,0679,Aningeria Aubrév. & Pellegr.,0072,Baillonella toxisperma Pierre
+24.jpg,0294,Fraxinus excelsior L.,0621,Tectona grandis L.
+28.jpg,0301,Gilbertiodendron dewevrei (De Wild.) J.Léonard,0030,Amburana cearensis (Allemão) A.C.Sm.
+29.png,0426,Microberlinia brazzavillensis A. Chev.,0426,Microberlinia brazzavillensis A. Chev.
+30.png,0478,Peltogyne Vogel,0396,Lophira alata Banks ex C.F.Gaertn.
+31.png,0478,Peltogyne Vogel,0478,Peltogyne Vogel
+32.png,0530,Pterocarpus soyauxii Taub.,0431,Millettia laurentii De Wild.

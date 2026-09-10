@@ -1,0 +1,33 @@
+﻿file_name,species_id,species_name,pred_rf,prob_rf,pred_svm,prob_svm,agree
+1.jpg,1.jpg,Especie_Desconocida_1.jpg,Gilbertiodendron preussii (Harms) J.Léonard,0.2632,Erythrophleum ivorense A. Chev,0.0497,0
+10.jpg,10.jpg,Especie_Desconocida_10.jpg,Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema,0.246,Khaya grandifoliola C.DC.,0.1583,0
+11.jpg,11.jpg,Especie_Desconocida_11.jpg,Lophira alata Banks ex C.F.Gaertn.,0.6024,Lophira alata Banks ex C.F.Gaertn.,0.0851,1
+12.jpg,12.jpg,Especie_Desconocida_12.jpg,Microberlinia brazzavillensis A. Chev.,0.5191,Microberlinia brazzavillensis A. Chev.,0.1321,1
+13.jpg,13.jpg,Especie_Desconocida_13.jpg,Milicia excelsa (Welw.) C.C. Berg,0.7716,Milicia excelsa (Welw.) C.C. Berg,0.0737,1
+14.jpg,14.jpg,Especie_Desconocida_14.jpg,Millettia laurentii De Wild.,0.3994,Millettia laurentii De Wild.,0.0861,1
+15.jpg,15.jpg,Especie_Desconocida_15.jpg,Brachystegia cynometroides Harms,0.4861,Brachystegia cynometroides Harms,0.1211,1
+16.jpg,16.jpg,Especie_Desconocida_16.jpg,Pterocarpus soyauxii Taub.,0.4459,Pterocarpus soyauxii Taub.,0.0933,1
+17.jpg,17.jpg,Especie_Desconocida_17.jpg,Pterygota macrocarpa K. Schum.,0.7571,Pterygota macrocarpa K. Schum.,0.1618,1
+18.jpg,18.jpg,Especie_Desconocida_18.jpg,Quercus petraea (Matt.) Liebl.,0.209,Quercus petraea (Matt.) Liebl.,0.0441,1
+19.jpg,19.jpg,Especie_Desconocida_19.jpg,Khaya grandifoliola C.DC.,0.3641,Tectona grandis L.,0.1364,0
+2.jpg,2.jpg,Especie_Desconocida_2.jpg,Khaya ivorensis A.Chev.,0.3273,Khaya ivorensis A.Chev.,0.0696,1
+20.jpg,20.jpg,Especie_Desconocida_20.jpg,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,0.2888,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,0.0748,1
+21.jpg,21.jpg,Especie_Desconocida_21.jpg,Anacardium giganteum Hancock ex Engl.,0.7567,Anacardium giganteum Hancock ex Engl.,0.1708,1
+22.jpg,22.jpg,Especie_Desconocida_22.jpg,Castanea crenata Siebold & Zucc.,0.9692,Castanea crenata Siebold & Zucc.,0.1501,1
+23.jpg,23.jpg,Especie_Desconocida_23.jpg,Entandrophragma angolense (Welw.) Panshin,0.8339,Entandrophragma angolense (Welw.) Panshin,0.1434,1
+24.jpg,24.jpg,Especie_Desconocida_24.jpg,Fraxinus americana L.,0.8155,Fraxinus americana L.,0.1166,1
+25.jpg,25.jpg,Especie_Desconocida_25.jpg,Fraxinus nigra Marshall,0.8914,Fraxinus nigra Marshall,0.1386,1
+26.jpg,26.jpg,Especie_Desconocida_26.jpg,Fraxinus ornus L.,0.8157,Fraxinus ornus L.,0.1441,1
+27.jpg,27.jpg,Especie_Desconocida_27.jpg,Fraxinus mandshurica Rupr.,0.8911,Fraxinus mandshurica Rupr.,0.1603,1
+28.jpg,28.jpg,Especie_Desconocida_28.jpg,Gilbertiodendron preussii (Harms) J.Léonard,0.7784,Gilbertiodendron preussii (Harms) J.Léonard,0.2046,1
+29.png,29.png,Especie_Desconocida_29.png,Microberlinia brazzavillensis A. Chev.,0.2709,Intsia bijuga (Colebr.) Kuntze,0.0849,0
+3.jpg,3.jpg,Especie_Desconocida_3.jpg,Ceiba pentandra (L.) Gaertn.,0.2413,Bagassa guianensis Aubl.,0.0865,0
+30.png,30.png,Especie_Desconocida_30.png,Peltogyne catingae Ducke,0.8677,Peltogyne catingae Ducke,0.1379,1
+31.png,31.png,Especie_Desconocida_31.png,Peltogyne mexicana Martínez,0.8839,Peltogyne mexicana Martínez,0.1292,1
+32.png,32.png,Especie_Desconocida_32.png,Pterocarpus soyauxii Taub.,0.306,Pterocarpus soyauxii Taub.,0.0797,1
+4.jpg,4.jpg,Especie_Desconocida_4.jpg,Khaya grandifoliola C.DC.,0.3947,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,0.0864,0
+5.jpg,5.jpg,Especie_Desconocida_5.jpg,Balfourodendron riedelianum (Engl.) Engl.,0.2367,Balfourodendron riedelianum (Engl.) Engl.,0.0781,1
+6.jpg,6.jpg,Especie_Desconocida_6.jpg,Khaya grandifoliola C.DC.,0.2294,Khaya grandifoliola C.DC.,0.1039,1
+7.jpg,7.jpg,Especie_Desconocida_7.jpg,Tectona grandis L.,0.2588,Grevillea robusta A.Cunn. ex R.Br.,0.0828,0
+8.jpg,8.jpg,Especie_Desconocida_8.jpg,Ctenolophon parvifolius Oliv.,0.2821,Triplochiton scleroxylon K. Schum.,0.0789,0
+9.jpg,9.jpg,Especie_Desconocida_9.jpg,Gilbertiodendron preussii (Harms) J.Léonard,0.5487,Gilbertiodendron preussii (Harms) J.Léonard,0.1323,1

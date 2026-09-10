@@ -1,0 +1,60 @@
+# ── Datos: propiedad de una entidad externa, NO se publican ──────────────
+data/**
+!data/README.md
+!data/.gitkeep
+*.jpg
+*.jpeg
+*.tif
+*.tiff
+*.bmp
+images/
+labels/
+annotations/
+*.zip
+
+# ── Pesos y artefactos de modelo ─────────────────────────────────────────
+*.pt
+*.joblib
+*.pkl
+models/
+
+# ── Ejecuciones y salidas voluminosas ────────────────────────────────────
+runs_*/
+outputs/
+species_inferences/
+inferences/
+sem_loss_log.csv
+*.log
+
+# Las figuras y CSV ligeros publicados en results/ SÍ se versionan:
+!results/**/*.png
+!results/**/*.csv
+!results/**/*.json
+!results/**/*.npz
+!results/**/*.txt
+!results/**/*.yaml
+
+# ── Python ───────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+.venv/
+env/
+.python-version
+
+# ── Entornos y editores ──────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+miniconda3/
+
+# ── Memoria del TFG (repositorio aparte) ─────────────────────────────────
+memoria_de_proyecto/
+*.aux
+*.lof
+*.lot
+*.synctex.gz

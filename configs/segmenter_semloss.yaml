@@ -1,0 +1,49 @@
+# Segmentador de rasgos anatomicos — configuracion de las ejecuciones reportadas
+#
+# DOCUMENTACION, NO CONFIGURACION EJECUTABLE: los scripts de entrenamiento llevan
+# estos valores en constantes de cabecera (lista EXPERIMENTS y bloque de config).
+# Este fichero existe para que los resultados publicados sean auditables.
+
+dataset:
+  root: data/raw_selected
+  data_yaml: data/raw_selected/data.yaml     # equivalente a configs/data.yaml
+  split_folder: data/raw_selected/split1     # train.csv / val.csv / test.csv
+  priors_por_especie: outputs/relative_feature_vectors.csv
+
+modelo_base: yolo11n-seg.pt
+
+entrenamiento:
+  epochs: 250            # la ejecucion baseline publicada se detuvo en 100
+  imgsz: 1024
+  batch: [4, 8]
+  optimizer: auto
+  lr0: 0.01
+  cos_lr: true
+  close_mosaic: 10
+  amp: true              # la perdida semantica se calcula con autocast=False
+  cache: false
+  workers: 4
+  seed: 42
+  device: 0
+
+perdida_semantica:
+  T_warm: 30             # epocas en las que se calcula pero no contribuye al gradiente
+  T_ramp: 80             # fin de la rampa lineal de lambda
+  lambda_max: 0.10
+  K_min: 3               # observaciones minimas por especie para la matriz de exclusividad
+  terminos:
+    - por_imagen         # distribucion de clases predicha vs. anotada
+    - por_especie        # prior agregado por especie
+    - exclusividad       # pares de clases permitidos, descubiertos del GT
+    - diagnostico        # enfasis por rareza morfologica del par (especie, rasgo)
+
+evaluacion:
+  test_confidence: 0.25
+  test_nms_iou: 0.7
+  match_iou: 0.50        # umbral del matching de la evaluacion propia
+  max_det: 300
+  retina_masks: true     # en validacion; false al exportar el COCO de predicciones
+
+salidas:
+  overlap: runs_wood_feature_sem_loss/<split>/
+  diag: runs_wood_feature_sem_loss_diag/<split>/

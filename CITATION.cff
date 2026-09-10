@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Si utilizas este software, cítalo como se indica a continuación."
+title: "Identificación multiclase de especies de madera por macroscopía"
+abstract: >-
+  Pipeline de dos etapas para la identificación de especies de madera a partir de
+  imágenes de macroscopía: un segmentador YOLO11-seg de rasgos anatómicos entrenado
+  con una pérdida semántica específica del dominio, y un clasificador tabular de
+  especie (Random Forest / SVM) sobre las anotaciones resultantes, evaluado con
+  métricas top-k y de severidad de error.
+type: software
+authors:
+  - given-names: "<nombre>"
+    family-names: "<apellidos>"
+    alias: pinkerthanfloyd
+license: MIT
+repository-code: "https://github.com/pinkerthanfloyd/multiclass_wood_species_classification"
+keywords:
+  - wood anatomy
+  - instance segmentation
+  - fine-grained classification
+  - YOLO
+  - selective annotation
+date-released: 2026-09-10
+version: "1.0.0"

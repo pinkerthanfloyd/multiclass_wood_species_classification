@@ -1,0 +1,37 @@
+{
+  "combined": {
+    "pearson": 0.9284983730840038,
+    "spearman": 0.9216052325483046,
+    "p_value": 0.000999000999000999,
+    "n_species": 95,
+    "n_permutations": 1000
+  },
+  "B1": {
+    "pearson": 0.9060268045785944,
+    "spearman": 0.9098108469922274,
+    "p_value": 0.000999000999000999,
+    "n_species": 95,
+    "n_permutations": 1000
+  },
+  "B2": {
+    "pearson": 0.8486635324143941,
+    "spearman": 0.8373682526500076,
+    "p_value": 0.000999000999000999,
+    "n_species": 95,
+    "n_permutations": 1000
+  },
+  "B3": {
+    "pearson": 0.9168681180546816,
+    "spearman": 0.9105775601741127,
+    "p_value": 0.000999000999000999,
+    "n_species": 95,
+    "n_permutations": 1000
+  },
+  "B4": {
+    "pearson": 0.9010832231968583,
+    "spearman": 0.8949510140601521,
+    "p_value": 0.000999000999000999,
+    "n_species": 95,
+    "n_permutations": 1000
+  }
+}

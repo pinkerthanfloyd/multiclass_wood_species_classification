@@ -1,0 +1,226 @@
+Dataset generado: species_inferences\features_por_imagen.csv
+(1061, 78)
+species_name
+Libidibia paraguariensis (D.Parodi) G.P.Lewis                            23
+Lovoa trichilioides Harms                                                20
+Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde                    18
+Ochroma pyramidale (Cav. ex Lam.) Urb.                                   18
+Khaya grandifoliola C.DC.                                                18
+Mezilaurus ita-uba (Meisn.) Taub. ex Mez                                 16
+Peltogyne Vogel                                                          15
+Microberlinia brazzavillensis A. Chev.                                   15
+Pycnanthus angolensis (Welw.) Warb.                                      15
+Intsia Thouars                                                           15
+Swietenia mahagoni (L.) Jacq.                                            15
+Erythrophleum ivorense A. Chev                                           14
+Millettia laurentii De Wild.                                             14
+Pterygota macrocarpa K. Schum.                                           14
+Guibourtia demeusei (Harms) J.Léonard                                    14
+Gilbertiodendron dewevrei (De Wild.) J.Léonard                           14
+Guibourtia tessmannii (Harms) J.Léonard                                  14
+Brosimum guianense (Aubl.) Huber ex Ducke                                14
+Acacia mangium Willd.                                                    13
+Tectona grandis L.                                                       13
+Quercus robur L.                                                         13
+Mansonia altissima (A. Chev.) A. Chev.                                   12
+Brachystegia Benth.                                                      12
+Erythrophleum suaveolens (Guill. & Perr.) Brenan                         12
+Swietenia macrophylla King                                               12
+Ceiba pentandra (L.) Gaertn.                                             12
+Peltogyne catingae Ducke                                                 12
+Entandrophragma cylindricum (Sprague) Sprague                            12
+Lophira alata Banks ex C.F.Gaertn.                                       12
+Entandrophragma candollei Harms                                          12
+Fraxinus excelsior L.                                                    12
+Brachystegia laurentii (De Wild.) Louis ex J.Léonard                     12
+Dryobalanops aromatica C.F.Gaertn.                                       12
+Balfourodendron riedelianum (Engl.) Engl.                                12
+Brosimum alicastrum Swartz                                               12
+Brachystegia cynometroides Harms                                         12
+Dryobalanops C.F.Gaertn.                                                 12
+Dipterocarpus kerrii King                                                12
+Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema                    12
+Ctenolophon parvifolius Oliv.                                            12
+Terminalia superba Engl.& Diels                                          12
+Quercus petraea (Matt.) Liebl.                                           11
+Koompassia malaccensis Maing.                                            11
+Gilbertiodendron preussii (Harms) J.Léonard                              11
+Khaya ivorensis A.Chev.                                                  11
+Fraxinus mandshurica Rupr.                                               11
+Intsia bijuga (Colebr.) Kuntze                                           11
+Dipterocarpus C.F.Gaertn.                                                11
+Quercus alba L.                                                          11
+Juglans regia L.                                                         11
+Grevillea robusta A.Cunn. ex R.Br.                                       11
+Dalbergia nigra (Vell.) Allemão ex Benth.                                11
+Dracontomelon dao (Blanco) Merr. & Rolfe                                 11
+Amburana cearensis (Allemão) A.C.Sm.                                     10
+Heritiera utilis (Sprague) Sprague                                       10
+Anopyxis klaineana (Pierre) Engl.                                        10
+Betula papyrifera Marshall                                               10
+Peltogyne mexicana Martínez                                              10
+Carapa guianensis Aubl.                                                  10
+Anacardium L.                                                            10
+Milicia excelsa (Welw.) C.C. Berg                                        10
+Castanea sativa Mill.                                                    10
+Acer platanoides L.                                                      10
+Acer pseudoplatanus L.                                                   10
+Entandrophragma angolense (Welw.) Panshin                                10
+Baillonella toxisperma Pierre                                            10
+Aucoumea klaineana Pierre                                                10
+Aningeria Aubrév. & Pellegr.                                             10
+Fraxinus americana L.                                                    10
+Guibourtia ehie (A. Chev.) J. Léonard                                    10
+Fraxinus ornus L.                                                        10
+Fraxinus nigra Marshall                                                  10
+Anacardium giganteum Hancock ex Engl.                                    10
+Castanea crenata Siebold & Zucc.                                         10
+Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff    10
+Cotylelobium Pierre                                                      10
+Leptolobium Vogel                                                         9
+Albizia ferruginea (Guill. & Perr.) Benth.                                9
+Bagassa guianensis Aubl.                                                  9
+Pterocarpus soyauxii Taub.                                                9
+Juglans nigra L.                                                          9
+Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels                     9
+Daniellia thurifera Benn.                                                 9
+Dipteryx odorata (Aubl.) Forsyth f.                                       8
+Aniba rosodora Ducke                                                      7
+Triplochiton scleroxylon K. Schum.                                        7
+Entandrophragma utile (Dawe & Sprague) Sprague                            6
+Quercus mongolica Fisch. ex Ledeb.                                        6
+Guibourtia pellegriniana J.Léonard                                        5
+Tabebuia rosea (Bert.) DC.                                                5
+Betula pendula Roth                                                       5
+Aesculus hippocastanum L.                                                 5
+Swietenia humilis Zucc.                                                   5
+Baikiaea plurijuga Harms                                                  4
+Ceriops tagal (Perr.) C.B. Robinson                                       4
+Cantleya corniculata (Becc.) R.A.Howard                                   4
+
+===== CROSS VALIDATION — RANDOM FOREST =====
+Accuracy por fold: [0.96713615 0.97169811 0.96698113 0.95283019 0.96698113]
+Accuracy media:    0.9651 ± 0.0064
+F1 macro por fold: [0.97052632 0.97007519 0.96480655 0.94848789 0.96888228]
+F1 macro media:    0.9646 ± 0.0083
+
+===== CROSS VALIDATION — SVM =====
+Accuracy por fold: [0.94366197 0.96226415 0.92924528 0.94339623 0.94339623]
+Accuracy media:    0.9444 ± 0.0105
+F1 macro por fold: [0.93091061 0.95859649 0.92157738 0.93667502 0.93399471]
+F1 macro media:    0.9364 ± 0.0122
+
+>> Mejor modelo por F1 macro: Random Forest (0.9646)
+
+>> Mejor modelo por F1 macro: SVM (0.9646)
+Modelo guardado en: models/species_classifier/species_model_svm.joblib
+
+===== CLASSIFICATION REPORT (SVM, out-of-fold) =====
+                                                                       precision    recall  f1-score   support
+
+                                                Acacia mangium Willd.       1.00      1.00      1.00        13
+                                                  Acer platanoides L.       1.00      1.00      1.00        10
+                                               Acer pseudoplatanus L.       1.00      1.00      1.00        10
+                                            Aesculus hippocastanum L.       0.56      1.00      0.71         5
+                           Albizia ferruginea (Guill. & Perr.) Benth.       1.00      1.00      1.00         9
+                                 Amburana cearensis (Allemão) A.C.Sm.       1.00      1.00      1.00        10
+                Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels       1.00      1.00      1.00         9
+                                Anacardium giganteum Hancock ex Engl.       1.00      1.00      1.00        10
+                                                        Anacardium L.       1.00      0.90      0.95        10
+                                                 Aniba rosodora Ducke       1.00      0.86      0.92         7
+                                         Aningeria Aubrév. & Pellegr.       1.00      0.80      0.89        10
+                                    Anopyxis klaineana (Pierre) Engl.       1.00      1.00      1.00        10
+                                            Aucoumea klaineana Pierre       1.00      1.00      1.00        10
+                                             Bagassa guianensis Aubl.       1.00      0.78      0.88         9
+                                             Baikiaea plurijuga Harms       1.00      1.00      1.00         4
+                                        Baillonella toxisperma Pierre       1.00      0.90      0.95        10
+                            Balfourodendron riedelianum (Engl.) Engl.       1.00      1.00      1.00        12
+                                           Betula papyrifera Marshall       0.60      0.90      0.72        10
+                                                  Betula pendula Roth       0.83      1.00      0.91         5
+                Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema       1.00      0.67      0.80        12
+                                     Brachystegia cynometroides Harms       0.92      0.92      0.92        12
+                 Brachystegia laurentii (De Wild.) Louis ex J.Léonard       0.80      0.67      0.73        12
+                                                  Brachystegia Benth.       0.83      0.83      0.83        12
+                                           Brosimum alicastrum Swartz       1.00      0.75      0.86        12
+                            Brosimum guianense (Aubl.) Huber ex Ducke       1.00      1.00      1.00        14
+                              Cantleya corniculata (Becc.) R.A.Howard       1.00      1.00      1.00         4
+                                              Carapa guianensis Aubl.       0.90      0.90      0.90        10
+                                     Castanea crenata Siebold & Zucc.       1.00      1.00      1.00        10
+                                                Castanea sativa Mill.       1.00      1.00      1.00        10
+                                         Ceiba pentandra (L.) Gaertn.       1.00      1.00      1.00        12
+                                  Ceriops tagal (Perr.) C.B. Robinson       0.25      0.25      0.25         4
+Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff       1.00      1.00      1.00        10
+                                                  Cotylelobium Pierre       0.89      0.80      0.84        10
+                                        Ctenolophon parvifolius Oliv.       0.92      0.92      0.92        12
+                            Dalbergia nigra (Vell.) Allemão ex Benth.       1.00      1.00      1.00        11
+                                            Daniellia thurifera Benn.       0.90      1.00      0.95         9
+                                            Dipterocarpus kerrii King       1.00      1.00      1.00        12
+                                            Dipterocarpus C.F.Gaertn.       1.00      1.00      1.00        11
+                                  Dipteryx odorata (Aubl.) Forsyth f.       0.75      0.75      0.75         8
+                             Dracontomelon dao (Blanco) Merr. & Rolfe       1.00      1.00      1.00        11
+                                   Dryobalanops aromatica C.F.Gaertn.       1.00      1.00      1.00        12
+                                             Dryobalanops C.F.Gaertn.       1.00      1.00      1.00        12
+                            Entandrophragma angolense (Welw.) Panshin       0.90      0.90      0.90        10
+                                      Entandrophragma candollei Harms       1.00      1.00      1.00        12
+                        Entandrophragma cylindricum (Sprague) Sprague       1.00      1.00      1.00        12
+                       Entandrophragma utile (Dawe & Sprague) Sprague       1.00      1.00      1.00         6
+                                       Erythrophleum ivorense A. Chev       0.82      1.00      0.90        14
+                     Erythrophleum suaveolens (Guill. & Perr.) Brenan       0.91      0.83      0.87        12
+                                                Fraxinus americana L.       1.00      1.00      1.00        10
+                                                Fraxinus excelsior L.       1.00      1.00      1.00        12
+                                           Fraxinus mandshurica Rupr.       1.00      1.00      1.00        11
+                                              Fraxinus nigra Marshall       1.00      1.00      1.00        10
+                                                    Fraxinus ornus L.       1.00      1.00      1.00        10
+                       Gilbertiodendron dewevrei (De Wild.) J.Léonard       0.93      1.00      0.97        14
+                          Gilbertiodendron preussii (Harms) J.Léonard       0.91      0.91      0.91        11
+                                   Grevillea robusta A.Cunn. ex R.Br.       0.91      0.91      0.91        11
+                                Guibourtia demeusei (Harms) J.Léonard       0.93      1.00      0.97        14
+                                Guibourtia ehie (A. Chev.) J. Léonard       1.00      1.00      1.00        10
+                                   Guibourtia pellegriniana J.Léonard       1.00      1.00      1.00         5
+                              Guibourtia tessmannii (Harms) J.Léonard       1.00      0.93      0.96        14
+                                   Heritiera utilis (Sprague) Sprague       1.00      0.90      0.95        10
+                                       Intsia bijuga (Colebr.) Kuntze       0.92      1.00      0.96        11
+                                                       Intsia Thouars       1.00      1.00      1.00        15
+                                                     Juglans nigra L.       0.82      1.00      0.90         9
+                                                     Juglans regia L.       0.85      1.00      0.92        11
+                                            Khaya grandifoliola C.DC.       0.78      1.00      0.88        18
+                                              Khaya ivorensis A.Chev.       1.00      1.00      1.00        11
+                                        Koompassia malaccensis Maing.       0.92      1.00      0.96        11
+                Leplaea cedrata (A.Chev.) E.J.M.Koenen & J.J.de Wilde       1.00      1.00      1.00        18
+                                                    Leptolobium Vogel       1.00      1.00      1.00         9
+                        Libidibia paraguariensis (D.Parodi) G.P.Lewis       1.00      0.83      0.90        23
+                                   Lophira alata Banks ex C.F.Gaertn.       1.00      1.00      1.00        12
+                                            Lovoa trichilioides Harms       1.00      1.00      1.00        20
+                               Mansonia altissima (A. Chev.) A. Chev.       0.92      0.92      0.92        12
+                             Mezilaurus ita-uba (Meisn.) Taub. ex Mez       1.00      1.00      1.00        16
+                               Microberlinia brazzavillensis A. Chev.       1.00      1.00      1.00        15
+                                    Milicia excelsa (Welw.) C.C. Berg       1.00      0.90      0.95        10
+                                         Millettia laurentii De Wild.       1.00      0.93      0.96        14
+                               Ochroma pyramidale (Cav. ex Lam.) Urb.       0.95      1.00      0.97        18
+                                             Peltogyne catingae Ducke       1.00      1.00      1.00        12
+                                          Peltogyne mexicana Martínez       1.00      1.00      1.00        10
+                                                      Peltogyne Vogel       0.93      0.87      0.90        15
+                                           Pterocarpus soyauxii Taub.       0.67      0.89      0.76         9
+                                       Pterygota macrocarpa K. Schum.       0.93      1.00      0.97        14
+                                  Pycnanthus angolensis (Welw.) Warb.       0.94      1.00      0.97        15
+                                                      Quercus alba L.       1.00      1.00      1.00        11
+                                   Quercus mongolica Fisch. ex Ledeb.       1.00      0.67      0.80         6
+                                       Quercus petraea (Matt.) Liebl.       1.00      1.00      1.00        11
+                                                     Quercus robur L.       0.87      1.00      0.93        13
+                                              Swietenia humilis Zucc.       1.00      0.80      0.89         5
+                                           Swietenia macrophylla King       0.92      0.92      0.92        12
+                                        Swietenia mahagoni (L.) Jacq.       0.86      0.80      0.83        15
+                                           Tabebuia rosea (Bert.) DC.       1.00      1.00      1.00         5
+                                                   Tectona grandis L.       1.00      0.69      0.82        13
+                                      Terminalia superba Engl.& Diels       1.00      1.00      1.00        12
+                                   Triplochiton scleroxylon K. Schum.       1.00      1.00      1.00         7
+
+                                                             accuracy                           0.94      1061
+                                                            macro avg       0.94      0.94      0.94      1061
+                                                         weighted avg       0.95      0.94      0.94      1061
+
+
+Predicciones guardadas en: species_inferences\predictions.csv
+Total imágenes: 1061
+Correctas: 1002
+Incorrectas: 59

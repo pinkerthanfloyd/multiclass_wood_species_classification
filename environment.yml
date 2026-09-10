@@ -1,0 +1,36 @@
+name: maderas
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+
+dependencies:
+  # Python base
+  - python=3.10
+
+  # Core scientific stack
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - pillow
+  - pyyaml
+  - shapely
+
+  # PyTorch with GPU support
+  - pytorch::pytorch
+  - pytorch::torchvision
+  - pytorch::pytorch-cuda=12.1
+
+  # OpenCV from conda ONLY (no pip)
+  - opencv
+
+  # Pip for remaining packages (WITHOUT opencv)
+  - pip
+
+  - pip:
+      - ultralytics
+      - sahi
+      - cvat-sdk
+      - pybboxes
+      - polars

@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Comprobar que todo compila
+        # No se importan los modulos: requeririan torch con CUDA y ultralytics.
+        # compileall detecta errores de sintaxis en cualquier fichero del pipeline.
+        run: python -m compileall -q src app
+
+      - name: Verificar que no se cuelan datos ni pesos
+        run: |
+          set -e
+          if git ls-files | grep -Ei '\.(jpg|jpeg|tif|tiff|bmp|pt|joblib|pkl|zip)$'; then
+            echo "::error::Hay ficheros de dataset o de modelo versionados. Revisa .gitignore."
+            exit 1
+          fi
+          echo "Sin ficheros de dataset ni pesos en el indice."
+
+      - name: Lint (informativo)
+        # No bloquea: es codigo de investigacion con imports condicionales y
+        # variantes historicas. Sirve para vigilar que no empeore.
+        continue-on-error: true
+        run: |
+          pip install ruff
+          ruff check --output-format=github src app

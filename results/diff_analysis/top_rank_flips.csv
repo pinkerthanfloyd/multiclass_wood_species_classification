@@ -1,0 +1,31 @@
+﻿species_a,name_a,species_b,name_b,rank_gt,rank_pred,rank_delta
+0114,Cantleya corniculata (Becc.) R.A.Howard,0181,Cotylelobium Pierre,9,80,71
+0114,Cantleya corniculata (Becc.) R.A.Howard,0461,Ochroma pyramidale (Cav. ex Lam.) Urb.,74,4,-70
+0114,Cantleya corniculata (Becc.) R.A.Howard,0006,Acer platanoides L.,75,6,-69
+0114,Cantleya corniculata (Becc.) R.A.Howard,0007,Acer pseudoplatanus L.,80,13,-67
+0552,Quercus alba L.,0323,Guibourtia demeusei (Harms) J.Léonard,94,29,-65
+0552,Quercus alba L.,0324,Guibourtia pellegriniana J.Léonard,93,28,-65
+0418,Mansonia altissima (A. Chev.) A. Chev.,0552,Quercus alba L.,22,86,64
+0114,Cantleya corniculata (Becc.) R.A.Howard,0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",8,70,62
+0114,Cantleya corniculata (Becc.) R.A.Howard,0258,Entandrophragma cylindricum (Sprague) Sprague,31,93,62
+0114,Cantleya corniculata (Becc.) R.A.Howard,0554,Quercus robur L.,84,24,-60
+0158,"Chlorocardium rodiei (R.H.Schomb.) Rohwer, H.G.Richt. & van der Werff",0114,Cantleya corniculata (Becc.) R.A.Howard,13,73,60
+0114,Cantleya corniculata (Becc.) R.A.Howard,0552,Quercus alba L.,82,22,-60
+0114,Cantleya corniculata (Becc.) R.A.Howard,0033,Anacardium excelsum (Bertero & Balb. ex Kunth) Skeels,16,75,59
+0552,Quercus alba L.,0331,Heritiera utilis (Sprague) Sprague,76,17,-59
+0114,Cantleya corniculata (Becc.) R.A.Howard,0418,Mansonia altissima (A. Chev.) A. Chev.,87,28,-59
+0114,Cantleya corniculata (Becc.) R.A.Howard,0236,Dipterocarpus C.F.Gaertn.,20,78,58
+0621,Tectona grandis L.,0070,Bagassa guianensis Aubl.,23,81,58
+0552,Quercus alba L.,0326,Guibourtia ehie (A. Chev.) J. Léonard,88,31,-57
+0530,Pterocarpus soyauxii Taub.,0297,Fraxinus mandshurica Rupr.,36,92,56
+0418,Mansonia altissima (A. Chev.) A. Chev.,0554,Quercus robur L.,18,74,56
+0114,Cantleya corniculata (Becc.) R.A.Howard,0550,Quercus mongolica Fisch. ex Ledeb.,78,23,-55
+0552,Quercus alba L.,0256,Entandrophragma angolense (Welw.) Panshin,82,27,-55
+0207,Dalbergia nigra (Vell.) Allemão ex Benth.,0114,Cantleya corniculata (Becc.) R.A.Howard,12,66,54
+0552,Quercus alba L.,0325,Guibourtia tessmannii (Harms) J.Léonard,74,23,-51
+0114,Cantleya corniculata (Becc.) R.A.Howard,0542,Pycnanthus angolensis (Welw.) Warb.,60,9,-51
+0085,Bobgunnia fistuloides (Harms) J.H. Kirkbr. & Wiersema,0430,Milicia excelsa (Welw.) C.C. Berg,29,80,51
+0425,Mezilaurus ita-uba (Meisn.) Taub. ex Mez,0552,Quercus alba L.,27,78,51
+0331,Heritiera utilis (Sprague) Sprague,0621,Tectona grandis L.,26,77,51
+0313,Grevillea robusta A.Cunn. ex R.Br.,0552,Quercus alba L.,32,82,50
+0331,Heritiera utilis (Sprague) Sprague,0552,Quercus alba L.,88,38,-50

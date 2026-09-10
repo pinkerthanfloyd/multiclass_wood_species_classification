@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wood-species-pipeline"
+version = "1.0.0"
+description = "Identificacion multiclase de especies de madera por macroscopia: segmentacion de rasgos anatomicos con perdida semantica + clasificacion tabular de especie"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "pinkerthanfloyd" }]
+
+# Las dependencias pesadas del pipeline (PyTorch con CUDA, Ultralytics, OpenCV) se
+# instalan con conda desde environment.yml. Lo que se declara aqui es lo minimo para
+# que el paquete sea instalable en modo editable y para que los imports entre modulos
+# resuelvan desde cualquier directorio de trabajo.
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+    "pyyaml",
+    "joblib",
+    "tqdm",
+    "pillow",
+]
+
+[project.optional-dependencies]
+app = ["streamlit"]
+viz = ["torchview"]
+dev = ["ruff"]
+
+[project.urls]
+Repository = "https://github.com/pinkerthanfloyd/multiclass_wood_species_classification"
+
+# ---------------------------------------------------------------------------
+# src/ es plano a proposito: los modulos se importan entre si por su nombre
+# (from train_yolo_seg_baseline_csvs import ...), tal y como se escribieron y se
+# ejecutaron para producir los resultados publicados. Declararlos como py-modules
+# bajo package-dir "" = "src" hace que la instalacion editable ponga src/ en el
+# path y que todos esos imports sigan resolviendo sin editar una sola linea.
+# ---------------------------------------------------------------------------
+[tool.setuptools]
+package-dir = { "" = "src" }
+py-modules = [
+    "compute_species_dissimilarity",
+    "differential_analysis",
+    "generate_prediction_coco_json",
+    "model_visualizer",
+    "plot_sem_loss",
+    "predict_with_severity",
+    "predictions_confidence",
+    "species_annotation_proximity",
+    "species_classifier",
+    "species_predict",
+    "species_trait_analysis",
+    "train_yolo_seg_baseline",
+    "train_yolo_seg_baseline_csvs",
+    "train_yolo_seg_partial_anno",
+    "train_yolo_seg_sem_loss",
+    "train_yolo_seg_sem_loss_species_diag",
+    "train_yolo_seg_sem_loss_species_overlap",
+    "visualize_predictions",
+    "visualize_species_proximity",
+    "visualize_species_proximity_noargs",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+# Codigo de investigacion: se ignoran reglas de estilo que obligarian a reescribir
+# scripts ya validados experimentalmente.
+select = ["E", "F", "W"]
+ignore = ["E501", "E741"]
