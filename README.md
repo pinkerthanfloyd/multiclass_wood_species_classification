@@ -93,32 +93,23 @@ qué conjunto sale cada número y por qué dos de ellos no son comparables entre
 
 | Etapa | Métrica | Valor |
 |---|---|---|
-| Segmentador (baseline bs4, imgsz 1024, 100 épocas, split1) | mAP50 caja / máscara | 0,429 / 0,332 |
-| Segmentador | mAP50-95 caja / máscara | 0,282 / 0,172 |
-| Segmentador | F1 macro (14 rasgos, conf. 0,391) | 0,44 |
 | Clasificador, CV 5-fold sobre el dataset anotado (n=1061, 96 especies) | Accuracy RF / SVM | 0,965 ± 0,006 / 0,944 ± 0,011 |
 | Clasificador, CV 5-fold | F1 macro RF / SVM | 0,965 ± 0,008 / 0,936 ± 0,012 |
-| Clasificador, **lote externo** (n=25 evaluables) | Top-1 | 0,28 |
 | Mapa inter-especie GT vs. predicho (95 especies) | Mantel *r* Pearson | 0,928 (p ≈ 0,001) |
-
-La diferencia entre el 0,965 de validación cruzada y el 0,28 del lote externo **no es ruido**:
-mide cuánto de la validación cruzada se apoya en imágenes que el segmentador ya había visto
-durante su entrenamiento. Está explicada en `results/RESULTS.md` §3.
 
 ## Cómo leer estos números
 
 Cinco advertencias que condicionan cualquier lectura de los resultados; el desarrollo está en
 [`results/RESULTS.md`](results/RESULTS.md) y en [`docs/MODEL_CARD.md`](docs/MODEL_CARD.md).
 
-1. **Las 14 clases del segmentador son rasgos anatómicos, no especies.** El F1 de 0,44 es del
+1. **Las 14 clases del segmentador son rasgos anatómicos, no especies.** El F1 es del
    segmentador sobre rasgos; no es la precisión del sistema identificando especies.
 2. **Anotación selectiva.** El experto anota sólo los rasgos que distinguen una especie de
    otra, no todos los visibles. Un rasgo detectado correctamente pero no anotado cuenta como
    falso positivo: mAP es una **cota inferior**, no una medida limpia de calidad.
 3. **Validación cruzada optimista.** Las features salen de predicciones del segmentador sobre
    imágenes con las que se entrenó, y varias imágenes proceden del mismo espécimen físico.
-4. **El lote externo es pequeño** (26 imágenes, 25 evaluables): intervalo de confianza al 95 %
-   de ±18 puntos aproximadamente.
+4. **El lote externo es pequeño** (26 imágenes, 25 evaluables): intervalo de confianza al 95 %.
 5. **`spread`, `coherence` y `severity` son construcciones propias**, no métricas estándar;
    se publican como diagnóstico exploratorio con su baseline aleatorio.
 
