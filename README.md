@@ -19,23 +19,13 @@ comparación diferencial entre el mapa derivado del GT y el derivado de las pred
 métricas de confianza y de severidad de error.
 
 > Trabajo de Fin de Grado. El código se publica bajo licencia MIT; **el dataset de imágenes
-> no se distribuye** (ver [`docs/DATA_CARD.md`](docs/DATA_CARD.md)).
+> no está disponible para distribución** (ver [`docs/DATA_CARD.md`](docs/DATA_CARD.md) o consultar escribiendo un correo a ig.diaz@alumnos.upm.es).
 
----
-
-## Qué hay y qué no hay en este repositorio
-
-| Incluido | No incluido |
-|---|---|
-| Todo el código del pipeline (`src/`) y la demo (`app/`) | Las imágenes de macroscopía y sus etiquetas |
-| Configuración de entorno y de las ejecuciones reportadas | Pesos entrenados (`*.pt`, `*.joblib`) |
-| Resultados ligeros y reproducibles (`results/`) | Directorios de ejecución completos (`runs_*/`) |
-| Documentación de datos, modelo y despliegue (`docs/`) | La memoria del TFG |
 
 Los artefactos excluidos se piden a la persona responsable del proyecto; su procedencia y
 condiciones de uso están en [`docs/DATA_CARD.md`](docs/DATA_CARD.md).
 
-## Estructura
+## Estructura de contenidos
 
 ```
 .
@@ -50,11 +40,6 @@ condiciones de uso están en [`docs/DATA_CARD.md`](docs/DATA_CARD.md).
 └── pyproject.toml    Instalación editable: pone src/ en el path
 ```
 
-`src/` es **plano a propósito**. Los módulos se importan entre sí por su nombre
-(`from train_yolo_seg_baseline_csvs import ...`), tal y como se escribieron y se ejecutaron
-para producir los resultados publicados. Instalar el paquete en modo editable pone `src/` en
-el `PYTHONPATH` y todos esos imports siguen resolviendo sin tocar una línea de código.
-
 ## Instalación
 
 ```bash
@@ -62,9 +47,6 @@ conda env create -f environment.yml     # o: bash setup_env.sh
 conda activate maderas
 pip install -e .                        # deja src/ importable desde cualquier sitio
 ```
-
-Detalle y resolución de problemas en [`docs/INSTALACION.md`](docs/INSTALACION.md). Si el
-entorno queda inconsistente, `LIMPIAR_Y_REINSTALAR.sh` lo borra y lo recrea desde cero.
 
 ## Ejecución del pipeline
 
@@ -83,6 +65,25 @@ python src/species_annotation_proximity.py --coco-json <coco> --plot   # 7. prox
 python src/species_predict.py                                    # 8. evaluación top-k
 streamlit run app/streamlit_app.py                               # demo
 ```
+
+## Variantes del segmentador
+
+Los cinco scripts de entrenamiento son una misma línea evolutiva: cada uno parte del
+anterior y cambia una idea. Todos comparten configuración, *splits* y evaluación, que viven
+en `train_yolo_seg_baseline_csvs.py`.
+
+| Script | Qué añade respecto al anterior |
+|---|---|
+| `train_yolo_seg_baseline_csvs.py` | Línea base: pérdida nativa de Ultralytics. Aporta además la configuración y la evaluación propia (matching IoU ≥ 0,50, desglose por imagen y por especie) que usan todos los demás. |
+| `train_yolo_seg_sem_loss.py` | Introduce la **pérdida semántica**: un término por imagen (KL sobre conteos + L1 sobre áreas) y otro por especie (*priors* del CSV de vectores relativos), con *warmup* y rampa de λ. Incluye reglas de anatomía cableadas a mano (presencia obligatoria de `V1` y `radio`, contención de `56`/`58` dentro de `V1`). |
+| `..._sem_loss_species_overlap.py` | **Elimina esas reglas cableadas** —eran incorrectas bajo anotación selectiva— y las sustituye por una **exclusividad espacial por especie descubierta de los datos**: para cada especie se construye del *ground truth* qué pares de clases llegan a solaparse alguna vez, y sólo se penaliza la co-activación de los pares nunca observados. |
+| `..._sem_loss_species_diag.py` | Añade el **énfasis diagnóstico**: pondera cada par (especie, rasgo) por lo atípica que es el área de ese rasgo en esa especie frente al resto de especies, de modo que el modelo no se acomode en los rasgos comunes. Con `diag_emphasis=False` colapsa exactamente a la variante anterior. **Es la variante canónica de los resultados publicados.** |
+| `train_yolo_seg_partial_anno.py` | Reformulación posterior, **experimental**, que lleva el paradigma de anotación parcial hasta el final: la pérdida por imagen pasa a ser **asimétrica** (sólo castiga la sub-predicción, porque una detección extra puede ser un rasgo real sin anotar), desactiva la exclusividad —su supuesto se invierte cuando la ausencia de un par sólo significa que el anotador no lo consideró distintivo— y rebaja el peso del término `cls`, que es el que empuja al modelo a llamar «fondo» a lo no anotado. |
+
+En resumen: **`sem_loss`** añade la firma anatómica, **`overlap`** deja de imponerla a mano y
+la aprende del GT, **`diag`** insiste en lo que distingue a cada especie, y **`partial_anno`**
+deja de penalizar aquello que el experto simplemente no anotó. El detalle operativo de cada
+uno está en [`docs/PIPELINE.md`](docs/PIPELINE.md).
 
 ## Resultados
 
